@@ -3,3 +3,7 @@
 ################################################################################
 
 /ch02/scalability-sample/obj
+/ch02/scalability-sample/bin
+/ch02/performance-issues/bin
+/ch02/performance-issues/obj
+/ch02/.vs
