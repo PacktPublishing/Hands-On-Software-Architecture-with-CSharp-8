@@ -2,10 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\ch02",
-    "\\ch02\\scalability-sample",
-    "\\ch02\\scalability-sample\\Controllers",
-    "\\ch02\\scalability-sample\\Models"
+    "\\ch04",
+    "\\ch07",
+    "\\ch07\\FunctionAppWWTravel"
   ],
-  "SelectedNode": "\\ch02\\scalability-sample\\Properties",
   "PreviewInSolutionExplorer": false
 }
