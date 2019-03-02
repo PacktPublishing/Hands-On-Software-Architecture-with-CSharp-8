@@ -4,7 +4,11 @@
     <AzureFunctionsVersion>v2</AzureFunctionsVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.24" />
+    <Compile Remove="ProcessSendEmail.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.Storage" Version="3.0.3" />
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.25" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">

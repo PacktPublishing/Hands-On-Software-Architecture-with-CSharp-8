@@ -7,27 +7,38 @@ using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
+using System.Net.Http;
+using System.Net;
+using System.Net.Http.Formatting;
+using Microsoft.WindowsAzure.Storage.Queue;
+using Microsoft.WindowsAzure.Storage;
 
 namespace FunctionAppWWTravel
 {
     public static class SendEmail
     {
         [FunctionName(nameof(SendEmail))]
-        public static async Task<IActionResult> RunAsync(
-            [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
+        public static async Task<HttpResponseMessage> RunAsync(
+            [HttpTrigger(AuthorizationLevel.Function, "post")] HttpRequestMessage req,
             ILogger log)
         {
-            log.LogInformation("C# HTTP trigger function processed a request.");
+            var requestData = await req.Content.ReadAsStringAsync();
 
-            string name = req.Query["name"];
+            var YOUR_CONNECTION_STRING = "[YOUR_AZURE_STORAGE_ACCOUNT_CONNECTION_STRING_HERE]";
 
-            string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
-            dynamic data = JsonConvert.DeserializeObject(requestBody);
-            name = name ?? data?.name;
+            var storageAccount = CloudStorageAccount.Parse(YOUR_CONNECTION_STRING);
 
-            return name != null
-                ? (ActionResult)new OkObjectResult($"Hello, {name}")
-                : new BadRequestObjectResult("Please pass a name on the query string or in the request body");
+            var queueClient = storageAccount.CreateCloudQueueClient();
+
+            var messageQueue = queueClient.GetQueueReference("email");
+
+            var message = new CloudQueueMessage(requestData);
+
+            await messageQueue.AddMessageAsync(message);
+
+            log.LogInformation("HTTP trigger from SendEmail function processed a request.");
+            return req.CreateResponse(HttpStatusCode.OK, new { success = true }, JsonMediaTypeFormatter.DefaultMediaType);
         }
     }
+    
 }
