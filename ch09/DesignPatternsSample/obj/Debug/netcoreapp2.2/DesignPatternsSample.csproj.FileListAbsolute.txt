@@ -1,0 +1,11 @@
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch09\DesignPatternsSample\bin\Debug\netcoreapp2.2\DesignPatternsSample.deps.json
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch09\DesignPatternsSample\bin\Debug\netcoreapp2.2\DesignPatternsSample.runtimeconfig.json
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch09\DesignPatternsSample\bin\Debug\netcoreapp2.2\DesignPatternsSample.runtimeconfig.dev.json
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch09\DesignPatternsSample\bin\Debug\netcoreapp2.2\DesignPatternsSample.dll
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch09\DesignPatternsSample\bin\Debug\netcoreapp2.2\DesignPatternsSample.pdb
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch09\DesignPatternsSample\obj\Debug\netcoreapp2.2\DesignPatternsSample.csprojAssemblyReference.cache
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch09\DesignPatternsSample\obj\Debug\netcoreapp2.2\DesignPatternsSample.csproj.CoreCompileInputs.cache
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch09\DesignPatternsSample\obj\Debug\netcoreapp2.2\DesignPatternsSample.AssemblyInfoInputs.cache
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch09\DesignPatternsSample\obj\Debug\netcoreapp2.2\DesignPatternsSample.AssemblyInfo.cs
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch09\DesignPatternsSample\obj\Debug\netcoreapp2.2\DesignPatternsSample.dll
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch09\DesignPatternsSample\obj\Debug\netcoreapp2.2\DesignPatternsSample.pdb
