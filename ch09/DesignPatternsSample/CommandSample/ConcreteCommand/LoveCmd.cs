@@ -17,5 +17,9 @@ namespace DesignPatternsSample.CommandSample.ConcreteCommand
         {
             _package.Love();
         }
+        public void Undo()
+        {
+            _package.UndoLove();
+        }
     }
 }

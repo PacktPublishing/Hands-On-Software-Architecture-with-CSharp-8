@@ -17,5 +17,9 @@ namespace DesignPatternsSample.CommandSample.ConcreteCommand
         {
             _package.Dislike();
         }
+        public void Undo()
+        {
+            _package.UndoDislike();
+        }
     }
 }

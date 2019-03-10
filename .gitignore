@@ -9,3 +9,6 @@
 /ch02/.vs
 /ch08/.vs/ch08/v15
 /ch09/.vs/ch09/v15
+/ch09/GenericHost/obj
+/ch09/GenericHost/bin/Debug/netcoreapp2.2
+/ch09/.vs/config

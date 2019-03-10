@@ -7,5 +7,6 @@ namespace DesignPatternsSample.CommandSample.CommandInterface
     public interface ICommand
     {
         void Execute();
+        void Undo();
     }
 }

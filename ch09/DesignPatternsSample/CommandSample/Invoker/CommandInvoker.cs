@@ -12,5 +12,10 @@ namespace DesignPatternsSample.CommandSample.Invoker
         {
             Command.Execute();
         }
+
+        internal void Undo()
+        {
+            Command.Undo();
+        }
     }
 }

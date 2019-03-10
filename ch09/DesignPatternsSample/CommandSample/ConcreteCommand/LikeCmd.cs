@@ -17,5 +17,10 @@ namespace DesignPatternsSample.CommandSample.ConcreteCommand
         {
             _package.Like();
         }
+
+        public void Undo()
+        {
+            _package.UndoLike();
+        }
     }
 }

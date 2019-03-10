@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="DesignPatternsSample.CommandSample.ConcreteCommand.DislikeCmd">
-    <Position X="7.25" Y="2" Width="1.5" />
+    <Position X="7.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAACAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAACAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CommandSample\ConcreteCommand\DislikeCmd.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -12,9 +12,9 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="DesignPatternsSample.CommandSample.ConcreteCommand.LikeCmd">
-    <Position X="10" Y="2" Width="1.5" />
+    <Position X="10" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAACAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAACAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CommandSample\ConcreteCommand\LikeCmd.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -25,14 +25,14 @@
   <Class Name="DesignPatternsSample.CommandSample.Receiver.Package">
     <Position X="7.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AgAAQAAAAAAAAAAAAAAAAAQAAAIAAIAAAAAAAAAFAAA=</HashCode>
+      <HashCode>AgAAQAAAAAAAAAAAAAAIQAQAAAIgAIAAAAAAAAAHAAA=</HashCode>
       <FileName>CommandSample\Receiver\Package.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DesignPatternsSample.CommandSample.ConcreteCommand.LoveCmd">
-    <Position X="4.75" Y="2" Width="1.5" />
+    <Position X="4.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAACAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAACAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CommandSample\ConcreteCommand\LoveCmd.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -43,7 +43,7 @@
   <Class Name="DesignPatternsSample.CommandSample.Invoker.CommandInvoker">
     <Position X="2.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAIBAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CommandSample\Invoker\CommandInvoker.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -53,7 +53,7 @@
   <Interface Name="DesignPatternsSample.CommandSample.CommandInterface.ICommand">
     <Position X="7.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CommandSample\CommandInterface\ICommand.cs</FileName>
     </TypeIdentifier>
   </Interface>

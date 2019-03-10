@@ -92,6 +92,7 @@ namespace DesignPatternsSample
                 Console.WriteLine("1 - Like");
                 Console.WriteLine("2 - Dislike");
                 Console.WriteLine("3 - Love");
+                Console.WriteLine("4 - Undo last command");
                 Console.WriteLine("Any other key - Exit");
                 var key = Console.ReadKey();
                 Console.WriteLine("");
@@ -109,11 +110,21 @@ namespace DesignPatternsSample
                     case ConsoleKey.D3:
                         commandInvoker.Command = loveCommand;
                         break;
+                    case ConsoleKey.NumPad4:
+                    case ConsoleKey.D4:
+                        if (commandInvoker.Command != null)
+                        {
+                            commandInvoker.Undo();
+                            commandInvoker.Command = null;
+                        }
+                        else
+                            Console.WriteLine("There is no Command to Undo!");
+                        break;
                     default:
                         keepAsking = false;
                         break;
                 }
-                if (keepAsking)
+                if ((keepAsking) && (commandInvoker.Command != null))
                     commandInvoker.Invoke();
             }
 
