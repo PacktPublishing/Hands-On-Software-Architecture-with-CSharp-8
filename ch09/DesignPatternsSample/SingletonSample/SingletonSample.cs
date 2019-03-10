@@ -7,26 +7,25 @@ namespace DesignPatternsSample.SingletonSample
 
     public sealed class SingletonDemo
     {
-        private readonly static SingletonDemo _instance = new SingletonDemo();
-
+        #region This is the Singleton definition
+        private static SingletonDemo _instance;
         public static SingletonDemo Current
         {
             get
             {
+                if (_instance == null)
+                    _instance = new SingletonDemo();
                 return _instance;
             }
         }
-
-        private SingletonDemo()
-        {
-            //Implent here the initialization of your singleton
-        }
+        #endregion
 
         public string Message { get; set; }
 
         public void Print()
         {
             Console.WriteLine(Message);
+            Console.WriteLine("");
         }
     }
 }

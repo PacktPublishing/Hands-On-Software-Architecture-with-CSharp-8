@@ -36,12 +36,5 @@
       <FileName>BuilderSample\Product\Room.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="DesignPatternsSample.BuilderSample.Builder.IRoomBuilder">
-    <Position X="8.75" Y="0.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAgAAQAAAAAAAAAEA=</HashCode>
-      <FileName>BuilderSample\Builder\IRoomBuilder.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
