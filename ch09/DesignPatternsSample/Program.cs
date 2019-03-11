@@ -2,6 +2,7 @@
 using DesignPatternsSample.CommandSample.ConcreteCommand;
 using DesignPatternsSample.CommandSample.Invoker;
 using DesignPatternsSample.CommandSample.Receiver;
+using DesignPatternsSample.DependencyInjectionSample.Concrete;
 using DesignPatternsSample.FactorySample.ConcreteCreator;
 using DesignPatternsSample.FactorySample.ProductInterface;
 using DesignPatternsSample.ProxySample.Proxy;
@@ -53,7 +54,7 @@ namespace DesignPatternsSample
             SingletonDemo.Current.Message = "This text will be printed by the singleton.";
             SingletonDemo.Current.Print();
             #endregion
-            /*
+            
             #region Singleton Configuration Sample
             Console.WriteLine("Singleton Configuration Sample");
             for (int i = 0; i< 20; i++)
@@ -62,8 +63,7 @@ namespace DesignPatternsSample
                 Thread.Sleep(1000);
             }
             #endregion
-            */
-
+            
             #region Proxy Sample
             Console.WriteLine("Proxy Sample");
             var roomPicture = new ProxyRoomPicture();
@@ -128,8 +128,15 @@ namespace DesignPatternsSample
                     commandInvoker.Invoke();
             }
 
-            
 
+
+            #endregion
+    
+            #region Dependency Injection Sample
+            var userAddress = new UserAddress { City = "São Paulo", Country = "Brazil", ZipCode = "01001-001" };
+            var destinationAddress = new UserAddress { City = "Rio de Janeiro", Country = "Brazil", ZipCode = "22460-050" };
+            var distanceCalculator = new DistanceCalculator(userAddress, destinationAddress);
+            distanceCalculator.Calculate();
             #endregion
 
             Console.ReadKey();
