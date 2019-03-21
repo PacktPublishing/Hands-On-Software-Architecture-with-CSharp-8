@@ -1,4 +1,4 @@
-1) Create a .NetCore.App library of the las dotnetcore version you have installed
+1) Create a .NetCore.App library of the last dotnetcore version you have installed
 called WWTravelClubDB. 
 
 2) Then add the following nuget packages:
@@ -14,7 +14,6 @@ with the same dotnet core version of the WWTravelClubDB library.
 
 5) Add the previous library as a reference of this consolle project.
 
-
 6) Finally copy the whole content of the ch06->WWTravelClubDB folder onto
 your solution.
 
@@ -23,5 +22,3 @@ your solution.
 8) Run the consolle application and follow comments in "Querying and updating data with Entity Framework Core"
 section
 
-
-Migrations have already bee
