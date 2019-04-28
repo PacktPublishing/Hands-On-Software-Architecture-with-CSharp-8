@@ -2,9 +2,9 @@
 using dotNetStandardLibrary.Evaluations;
 using System.Collections.Generic;
 
-namespace CodeReuse
+namespace dotNetStandardLibrary.Evaluations.Content
 {
-    class DestinationExpert : IContentEvaluated
+    public class DestinationExpert : IContentEvaluated
     {
         public List<Evaluation> Evaluations { get; set; }
     }

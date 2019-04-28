@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace dotNetStandardLibrary.Evaluations
+namespace dotNetStandardLibrary.Evaluations.Types
 {
     public class BasicUsersEvaluation: Evaluation
     { 

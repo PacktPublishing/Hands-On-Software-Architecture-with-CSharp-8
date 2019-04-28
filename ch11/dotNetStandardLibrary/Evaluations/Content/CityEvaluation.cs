@@ -2,9 +2,9 @@
 using dotNetStandardLibrary.Evaluations;
 using System.Collections.Generic;
 
-namespace CodeReuse
+namespace dotNetStandardLibrary.Evaluations.Content
 {
-    class CityEvaluation : IContentEvaluated
+    public class CityEvaluation : IContentEvaluated
     {
         public List<Evaluation> Evaluations { get; set; } = new List<Evaluation>();
     }

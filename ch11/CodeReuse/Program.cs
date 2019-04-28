@@ -1,5 +1,6 @@
 ﻿using dotNetStandardLibrary;
-using dotNetStandardLibrary.Evaluations;
+using dotNetStandardLibrary.Evaluations.Content;
+using dotNetStandardLibrary.Evaluations.Types;
 using System;
 
 namespace CodeReuse
@@ -24,7 +25,7 @@ namespace CodeReuse
                 Grade = 4
             };
 
-            var service = new EvaluationService<CityEvaluation>(new CityEvaluation());
+            var service = new EvaluationService<CityEvaluation>();
             service.content.Evaluations.Add(buEvaluation);
             service.content.Evaluations.Add(puEvaluation);
             Console.WriteLine($"Type of evaluation: {service.GetTypeOfEvaluation()}");
