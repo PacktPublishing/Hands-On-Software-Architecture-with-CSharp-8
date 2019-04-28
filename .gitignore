@@ -12,3 +12,10 @@
 /ch09/GenericHost/obj
 /ch09/GenericHost/bin/Debug/netcoreapp2.2
 /ch09/.vs/config
+/ch11/dotNetStandardLibrary/bin/Debug/netstandard2.0
+/ch11/dotNetStandardLibrary/obj
+/ch11/CodeReuseLibrary/bin/Debug/netcoreapp2.2
+/ch11/CodeReuseLibrary/obj
+/ch11/CodeReuse/obj
+/ch11/CodeReuse/bin/Debug/netcoreapp2.2
+/ch11/.vs
