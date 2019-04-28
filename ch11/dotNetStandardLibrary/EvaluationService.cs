@@ -9,7 +9,7 @@ namespace dotNetStandardLibrary
     /// This declaration indicates that any class that implements 
     /// the interface IContentEvaluaded can be used for this
     /// service. Besides, the service will be responsible to 
-    /// create the contented evaluated
+    /// create the evaluated content
     /// </summary>
     /// <typeparam name="T"></typeparam>
     public class EvaluationService<T> where T: IContentEvaluated
