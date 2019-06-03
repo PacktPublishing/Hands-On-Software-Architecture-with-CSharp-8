@@ -1,0 +1,9 @@
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetrics\bin\Debug\net461\CodeMetricsBadCode.exe.config
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetrics\bin\Debug\net461\CodeMetricsBadCode.exe
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetrics\bin\Debug\net461\CodeMetricsBadCode.pdb
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetrics\obj\Debug\net461\CodeMetricsBadCode.csprojAssemblyReference.cache
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetrics\obj\Debug\net461\CodeMetricsBadCode.csproj.CoreCompileInputs.cache
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetrics\obj\Debug\net461\CodeMetricsBadCode.AssemblyInfoInputs.cache
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetrics\obj\Debug\net461\CodeMetricsBadCode.AssemblyInfo.cs
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetrics\obj\Debug\net461\CodeMetricsBadCode.exe
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetrics\obj\Debug\net461\CodeMetricsBadCode.pdb

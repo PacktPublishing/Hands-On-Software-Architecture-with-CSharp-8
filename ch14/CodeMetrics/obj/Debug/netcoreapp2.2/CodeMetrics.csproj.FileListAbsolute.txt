@@ -1,0 +1,11 @@
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetrics\bin\Debug\netcoreapp2.2\CodeMetrics.deps.json
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetrics\bin\Debug\netcoreapp2.2\CodeMetrics.runtimeconfig.json
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetrics\bin\Debug\netcoreapp2.2\CodeMetrics.runtimeconfig.dev.json
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetrics\bin\Debug\netcoreapp2.2\CodeMetrics.dll
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetrics\bin\Debug\netcoreapp2.2\CodeMetrics.pdb
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetrics\obj\Debug\netcoreapp2.2\CodeMetrics.csproj.CoreCompileInputs.cache
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetrics\obj\Debug\netcoreapp2.2\CodeMetrics.AssemblyInfoInputs.cache
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetrics\obj\Debug\netcoreapp2.2\CodeMetrics.AssemblyInfo.cs
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetrics\obj\Debug\netcoreapp2.2\CodeMetrics.dll
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetrics\obj\Debug\netcoreapp2.2\CodeMetrics.pdb
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetrics\obj\Debug\netcoreapp2.2\CodeMetrics.csprojAssemblyReference.cache
