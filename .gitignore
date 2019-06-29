@@ -23,3 +23,5 @@
 /ch16/SampleCodeChapter16/bin
 /ch16/SampleCodeChapter16/obj
 /ch16/.vs/
+/ch16/WebApplicationSample/obj
+/ch16/WebApplicationSample/bin/Debug/netcoreapp2.2
