@@ -1,0 +1,14 @@
+C:\Users\HP\Documents\libro c#\Code\PackagesManagement\PackagesManagementDB\bin\Debug\netcoreapp3.0\PackagesManagementDomain.dll
+C:\Users\HP\Documents\libro c#\Code\PackagesManagement\PackagesManagementDB\obj\Debug\netcoreapp3.0\PackagesManagementDB.csprojAssemblyReference.cache
+C:\Users\HP\Documents\libro c#\Code\PackagesManagement\PackagesManagementDB\obj\Debug\netcoreapp3.0\PackagesManagementDB.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\libro c#\Code\PackagesManagement\PackagesManagementDB\obj\Debug\netcoreapp3.0\PackagesManagementDB.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\libro c#\Code\PackagesManagement\PackagesManagementDB\obj\Debug\netcoreapp3.0\PackagesManagementDB.AssemblyInfo.cs
+C:\Users\HP\Documents\libro c#\Code\PackagesManagement\PackagesManagementDB\bin\Debug\netcoreapp3.0\PackagesManagementDB.deps.json
+C:\Users\HP\Documents\libro c#\Code\PackagesManagement\PackagesManagementDB\bin\Debug\netcoreapp3.0\PackagesManagementDB.runtimeconfig.json
+C:\Users\HP\Documents\libro c#\Code\PackagesManagement\PackagesManagementDB\bin\Debug\netcoreapp3.0\PackagesManagementDB.runtimeconfig.dev.json
+C:\Users\HP\Documents\libro c#\Code\PackagesManagement\PackagesManagementDB\bin\Debug\netcoreapp3.0\PackagesManagementDB.dll
+C:\Users\HP\Documents\libro c#\Code\PackagesManagement\PackagesManagementDB\bin\Debug\netcoreapp3.0\PackagesManagementDB.pdb
+C:\Users\HP\Documents\libro c#\Code\PackagesManagement\PackagesManagementDB\bin\Debug\netcoreapp3.0\PackagesManagementDomain.pdb
+C:\Users\HP\Documents\libro c#\Code\PackagesManagement\PackagesManagementDB\obj\Debug\netcoreapp3.0\PackagesManagementDB.csproj.CopyComplete
+C:\Users\HP\Documents\libro c#\Code\PackagesManagement\PackagesManagementDB\obj\Debug\netcoreapp3.0\PackagesManagementDB.dll
+C:\Users\HP\Documents\libro c#\Code\PackagesManagement\PackagesManagementDB\obj\Debug\netcoreapp3.0\PackagesManagementDB.pdb
