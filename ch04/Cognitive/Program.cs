@@ -21,7 +21,7 @@ namespace Cognitive
 
                     // five seconds for timeout
                     client.Timeout = new TimeSpan(0, 0, 5);
-                    var body =  new { Text = textToTranslate } ;
+                    var body = new object[] { new { Text = textToTranslate } };
                     var requestBody = JsonConvert.SerializeObject(body);    
 
                     request.Content = new StringContent(requestBody, Encoding.UTF8, "application/json");
@@ -44,7 +44,7 @@ namespace Cognitive
             var route = "/translate?api-version=3.0&to=es";
             var subscriptionKey = "[YOUR KEY HERE]";
             var region = "centralus";
-            if (subscriptionKey == "[YOUR REGION HERE]")
+            if (subscriptionKey == "[YOUR KEY HERE]")
             {
                 Console.WriteLine("Please, informe your key: ");
                 subscriptionKey = Console.ReadLine();
