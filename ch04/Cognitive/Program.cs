@@ -43,7 +43,7 @@ namespace Cognitive
             var host = "https://api.cognitive.microsofttranslator.com";
             var route = "/translate?api-version=3.0&to=es";
             var subscriptionKey = "[YOUR KEY HERE]";
-            var region = "centralus";
+            var region = "[YOUR REGION HERE]";
             if (subscriptionKey == "[YOUR KEY HERE]")
             {
                 Console.WriteLine("Please, informe your key: ");
