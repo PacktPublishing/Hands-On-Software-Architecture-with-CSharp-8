@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "CodeReuse/1.0.0": {
+        "dependencies": {
+          "CodeReuseLibrary": "1.0.0",
+          "dotNetStandardLibrary": "1.0.0"
+        },
+        "runtime": {
+          "CodeReuse.dll": {}
+        }
+      },
+      "CodeReuseLibrary/1.0.0": {
+        "runtime": {
+          "CodeReuseLibrary.dll": {}
+        }
+      },
+      "dotNetStandardLibrary/1.0.0": {
+        "runtime": {
+          "dotNetStandardLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CodeReuse/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CodeReuseLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "dotNetStandardLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

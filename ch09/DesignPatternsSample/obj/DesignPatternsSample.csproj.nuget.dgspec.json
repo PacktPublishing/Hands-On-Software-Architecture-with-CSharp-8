@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Hands-On-Software-Architecture-with-CSharp-8\\ch09\\DesignPatternsSample\\DesignPatternsSample.csproj": {}
+  },
+  "projects": {
+    "C:\\Hands-On-Software-Architecture-with-CSharp-8\\ch09\\DesignPatternsSample\\DesignPatternsSample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Hands-On-Software-Architecture-with-CSharp-8\\ch09\\DesignPatternsSample\\DesignPatternsSample.csproj",
+        "projectName": "DesignPatternsSample",
+        "projectPath": "C:\\Hands-On-Software-Architecture-with-CSharp-8\\ch09\\DesignPatternsSample\\DesignPatternsSample.csproj",
+        "packagesPath": "C:\\Users\\gabriell\\.nuget\\packages\\",
+        "outputPath": "C:\\Hands-On-Software-Architecture-with-CSharp-8\\ch09\\DesignPatternsSample\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gabriell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tdbaplicativos.pkgs.visualstudio.com/_packaging/Toledo-do-Brasil-Packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

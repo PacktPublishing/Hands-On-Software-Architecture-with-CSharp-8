@@ -2,9 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\ch02",
-    "\\ch04",
-    "\\ch07",
-    "\\ch07\\FunctionAppWWTravel"
+    "\\ch02\\performance-issues",
+    "\\ch02\\scalability-sample",
+    "\\ch02\\scalability-sample\\Controllers",
+    "\\ch14\\CodeMetrics",
+    "\\ch14\\CodeMetricsGoodCode"
   ],
+  "SelectedNode": "\\ch02\\scalability-sample\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }

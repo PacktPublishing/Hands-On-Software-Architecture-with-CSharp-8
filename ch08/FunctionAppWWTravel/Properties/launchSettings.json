@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FunctionAppWWTravel": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "EmailQueueConnectionString": "Your Queue Storage Account Connection String Here"
+      }
+    }
+  }
+}

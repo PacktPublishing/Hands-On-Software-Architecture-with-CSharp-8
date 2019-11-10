@@ -1,0 +1,13 @@
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch04\Cognitive\bin\Debug\netcoreapp3.0\Cognitive.exe
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch04\Cognitive\bin\Debug\netcoreapp3.0\Cognitive.deps.json
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch04\Cognitive\bin\Debug\netcoreapp3.0\Cognitive.runtimeconfig.json
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch04\Cognitive\bin\Debug\netcoreapp3.0\Cognitive.runtimeconfig.dev.json
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch04\Cognitive\bin\Debug\netcoreapp3.0\Cognitive.dll
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch04\Cognitive\bin\Debug\netcoreapp3.0\Cognitive.pdb
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch04\Cognitive\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch04\Cognitive\obj\Debug\netcoreapp3.0\Cognitive.csprojAssemblyReference.cache
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch04\Cognitive\obj\Debug\netcoreapp3.0\Cognitive.AssemblyInfoInputs.cache
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch04\Cognitive\obj\Debug\netcoreapp3.0\Cognitive.AssemblyInfo.cs
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch04\Cognitive\obj\Debug\netcoreapp3.0\Cognitive.csproj.CopyComplete
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch04\Cognitive\obj\Debug\netcoreapp3.0\Cognitive.dll
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch04\Cognitive\obj\Debug\netcoreapp3.0\Cognitive.pdb

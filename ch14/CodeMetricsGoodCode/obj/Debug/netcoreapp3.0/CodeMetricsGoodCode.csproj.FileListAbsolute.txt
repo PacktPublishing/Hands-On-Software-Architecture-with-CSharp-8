@@ -1,0 +1,11 @@
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetricsGoodCode\bin\Debug\netcoreapp3.0\CodeMetricsGoodCode.exe
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetricsGoodCode\bin\Debug\netcoreapp3.0\CodeMetricsGoodCode.deps.json
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetricsGoodCode\bin\Debug\netcoreapp3.0\CodeMetricsGoodCode.runtimeconfig.json
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetricsGoodCode\bin\Debug\netcoreapp3.0\CodeMetricsGoodCode.runtimeconfig.dev.json
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetricsGoodCode\bin\Debug\netcoreapp3.0\CodeMetricsGoodCode.dll
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetricsGoodCode\bin\Debug\netcoreapp3.0\CodeMetricsGoodCode.pdb
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetricsGoodCode\obj\Debug\netcoreapp3.0\CodeMetricsGoodCode.csprojAssemblyReference.cache
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetricsGoodCode\obj\Debug\netcoreapp3.0\CodeMetricsGoodCode.AssemblyInfoInputs.cache
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetricsGoodCode\obj\Debug\netcoreapp3.0\CodeMetricsGoodCode.AssemblyInfo.cs
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetricsGoodCode\obj\Debug\netcoreapp3.0\CodeMetricsGoodCode.dll
+C:\Hands-On-Software-Architecture-with-CSharp-8\ch14\CodeMetricsGoodCode\obj\Debug\netcoreapp3.0\CodeMetricsGoodCode.pdb
