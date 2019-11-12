@@ -9,30 +9,30 @@
     ".NETStandard,Version=v2.0/": {
       "PackagesManagementDomain/1.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "3.0.0-preview6.19304.6",
+          "Microsoft.Extensions.DependencyInjection": "3.0.0",
           "NETStandard.Library": "2.0.3",
-          "System.ComponentModel.Annotations": "4.6.0-preview6.19303.8"
+          "System.ComponentModel.Annotations": "4.6.0"
         },
         "runtime": {
           "PackagesManagementDomain.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/3.0.0-preview6.19304.6": {
+      "Microsoft.Extensions.DependencyInjection/3.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0-preview6.19304.6"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {
             "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.19.30406"
+            "fileVersion": "3.0.19.46305"
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0-preview6.19304.6": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.19.30406"
+            "fileVersion": "3.0.19.46305"
           }
         }
       },
@@ -42,11 +42,11 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
-      "System.ComponentModel.Annotations/4.6.0-preview6.19303.8": {
+      "System.ComponentModel.Annotations/4.6.0": {
         "runtime": {
           "lib/netstandard2.0/System.ComponentModel.Annotations.dll": {
-            "assemblyVersion": "4.2.2.0",
-            "fileVersion": "4.700.19.30308"
+            "assemblyVersion": "4.2.1.0",
+            "fileVersion": "4.6.26515.6"
           }
         }
       }
@@ -58,19 +58,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Extensions.DependencyInjection/3.0.0-preview6.19304.6": {
+    "Microsoft.Extensions.DependencyInjection/3.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Q+hAXRgBMMWmGY0nrLmjhf01q31yDJhVB5SQPeNas1H78/efGwC194q6M9PlJWUfm11uMVtb5ZfpMjZiHrHObA==",
-      "path": "microsoft.extensions.dependencyinjection/3.0.0-preview6.19304.6",
-      "hashPath": "microsoft.extensions.dependencyinjection.3.0.0-preview6.19304.6.nupkg.sha512"
+      "sha512": "sha512-yDsuNA/BT4j9qrcRs0NUNHQAJfywFWX18ZZ+shxXJL+/nIfz3vhuRTfnYgvFeQlNBlgmgdSjOcs4ajgoS6Q/Ng==",
+      "path": "microsoft.extensions.dependencyinjection/3.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.3.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0-preview6.19304.6": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-g2M6hgbjj+XFiohKnNBJ/7DjPhVfp4HEe+wbXIEVSfA1HkT40/aHiXY/7ynkndEXXBaTgj6OYtj89iDyTKSsEw==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/3.0.0-preview6.19304.6",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.0.0-preview6.19304.6.nupkg.sha512"
+      "sha512": "sha512-ofQRroDlzJ0xKOtzNuaVt6QKNImFkhkG0lIMpGl7PtXnIf5SuLWBeiQZAP8DNSxDBJJdcsPkiJiMYK2WA5H8dQ==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -86,12 +86,12 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
-    "System.ComponentModel.Annotations/4.6.0-preview6.19303.8": {
+    "System.ComponentModel.Annotations/4.6.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Q5NUReQpwGjPTm1uhKyNfvbVqNn9pQ46L4Lxkz/+hCoRsMJQkI3Acbh6E57SjJ1hn5hcTv4yy9bqqpDK06UPoQ==",
-      "path": "system.componentmodel.annotations/4.6.0-preview6.19303.8",
-      "hashPath": "system.componentmodel.annotations.4.6.0-preview6.19303.8.nupkg.sha512"
+      "sha512": "sha512-pOd+UhZ3X8xfwKDlgAzowUJNjp8VYVmOHZm++vCd0kq1HZ0zK3mNo2yRXjYgv7Ik/Xi43fmJfND2PLEsQSALCg==",
+      "path": "system.componentmodel.annotations/4.6.0",
+      "hashPath": "system.componentmodel.annotations.4.6.0.nupkg.sha512"
     }
   }
 }

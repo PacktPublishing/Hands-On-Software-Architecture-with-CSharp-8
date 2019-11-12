@@ -7,3 +7,11 @@ C:\Users\HP\Documents\libro c#\Code\PackagesManagement\PackagesManagementDomain\
 C:\Users\HP\Documents\libro c#\Code\PackagesManagement\PackagesManagementDomain\bin\Debug\netstandard2.0\PackagesManagementDomain.pdb
 C:\Users\HP\Documents\libro c#\Code\PackagesManagement\PackagesManagementDomain\obj\Debug\netstandard2.0\PackagesManagementDomain.dll
 C:\Users\HP\Documents\libro c#\Code\PackagesManagement\PackagesManagementDomain\obj\Debug\netstandard2.0\PackagesManagementDomain.pdb
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PackagesManagement\PackagesManagementDomain\bin\Debug\netstandard2.0\PackagesManagementDomain.deps.json
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PackagesManagement\PackagesManagementDomain\bin\Debug\netstandard2.0\PackagesManagementDomain.dll
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PackagesManagement\PackagesManagementDomain\bin\Debug\netstandard2.0\PackagesManagementDomain.pdb
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PackagesManagement\PackagesManagementDomain\obj\Debug\netstandard2.0\PackagesManagementDomain.csprojAssemblyReference.cache
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PackagesManagement\PackagesManagementDomain\obj\Debug\netstandard2.0\PackagesManagementDomain.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PackagesManagement\PackagesManagementDomain\obj\Debug\netstandard2.0\PackagesManagementDomain.AssemblyInfo.cs
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PackagesManagement\PackagesManagementDomain\obj\Debug\netstandard2.0\PackagesManagementDomain.dll
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PackagesManagement\PackagesManagementDomain\obj\Debug\netstandard2.0\PackagesManagementDomain.pdb
