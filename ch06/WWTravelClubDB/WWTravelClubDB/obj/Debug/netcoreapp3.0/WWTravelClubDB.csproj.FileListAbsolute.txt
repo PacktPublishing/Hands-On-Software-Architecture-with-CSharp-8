@@ -1,0 +1,10 @@
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\WWTravelClubDB\WWTravelClubDB\bin\Debug\netcoreapp3.0\WWTravelClubDB.deps.json
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\WWTravelClubDB\WWTravelClubDB\bin\Debug\netcoreapp3.0\WWTravelClubDB.runtimeconfig.json
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\WWTravelClubDB\WWTravelClubDB\bin\Debug\netcoreapp3.0\WWTravelClubDB.runtimeconfig.dev.json
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\WWTravelClubDB\WWTravelClubDB\bin\Debug\netcoreapp3.0\WWTravelClubDB.dll
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\WWTravelClubDB\WWTravelClubDB\bin\Debug\netcoreapp3.0\WWTravelClubDB.pdb
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\WWTravelClubDB\WWTravelClubDB\obj\Debug\netcoreapp3.0\WWTravelClubDB.csprojAssemblyReference.cache
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\WWTravelClubDB\WWTravelClubDB\obj\Debug\netcoreapp3.0\WWTravelClubDB.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\WWTravelClubDB\WWTravelClubDB\obj\Debug\netcoreapp3.0\WWTravelClubDB.AssemblyInfo.cs
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\WWTravelClubDB\WWTravelClubDB\obj\Debug\netcoreapp3.0\WWTravelClubDB.dll
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\WWTravelClubDB\WWTravelClubDB\obj\Debug\netcoreapp3.0\WWTravelClubDB.pdb

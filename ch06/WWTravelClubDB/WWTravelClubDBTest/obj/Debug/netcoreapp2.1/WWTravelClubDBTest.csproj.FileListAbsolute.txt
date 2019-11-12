@@ -1,0 +1,14 @@
+C:\Users\HP\Documents\libro c#\Code\WWTravelClubDB\WWTravelClubDBTest\bin\Debug\netcoreapp2.1\WWTravelClubDBTest.deps.json
+C:\Users\HP\Documents\libro c#\Code\WWTravelClubDB\WWTravelClubDBTest\bin\Debug\netcoreapp2.1\WWTravelClubDBTest.runtimeconfig.json
+C:\Users\HP\Documents\libro c#\Code\WWTravelClubDB\WWTravelClubDBTest\bin\Debug\netcoreapp2.1\WWTravelClubDBTest.runtimeconfig.dev.json
+C:\Users\HP\Documents\libro c#\Code\WWTravelClubDB\WWTravelClubDBTest\bin\Debug\netcoreapp2.1\WWTravelClubDBTest.dll
+C:\Users\HP\Documents\libro c#\Code\WWTravelClubDB\WWTravelClubDBTest\bin\Debug\netcoreapp2.1\WWTravelClubDBTest.pdb
+C:\Users\HP\Documents\libro c#\Code\WWTravelClubDB\WWTravelClubDBTest\bin\Debug\netcoreapp2.1\WWTravelClubDB.dll
+C:\Users\HP\Documents\libro c#\Code\WWTravelClubDB\WWTravelClubDBTest\bin\Debug\netcoreapp2.1\WWTravelClubDB.pdb
+C:\Users\HP\Documents\libro c#\Code\WWTravelClubDB\WWTravelClubDBTest\obj\Debug\netcoreapp2.1\WWTravelClubDBTest.csprojAssemblyReference.cache
+C:\Users\HP\Documents\libro c#\Code\WWTravelClubDB\WWTravelClubDBTest\obj\Debug\netcoreapp2.1\WWTravelClubDBTest.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\libro c#\Code\WWTravelClubDB\WWTravelClubDBTest\obj\Debug\netcoreapp2.1\WWTravelClubDBTest.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\libro c#\Code\WWTravelClubDB\WWTravelClubDBTest\obj\Debug\netcoreapp2.1\WWTravelClubDBTest.AssemblyInfo.cs
+C:\Users\HP\Documents\libro c#\Code\WWTravelClubDB\WWTravelClubDBTest\obj\Debug\netcoreapp2.1\WWTravelClubDBTest.csproj.CopyComplete
+C:\Users\HP\Documents\libro c#\Code\WWTravelClubDB\WWTravelClubDBTest\obj\Debug\netcoreapp2.1\WWTravelClubDBTest.dll
+C:\Users\HP\Documents\libro c#\Code\WWTravelClubDB\WWTravelClubDBTest\obj\Debug\netcoreapp2.1\WWTravelClubDBTest.pdb
