@@ -1,4 +1,0 @@
-- MAke a copy of chapter 13 project.
-- Add it a test roject following the instructions in the book.
-- Add all references and Nuget packages as per book instructions.
-- Replace the class scaffolded by Visual Studio with the ManagePackagesControllerTests.cs file. 
