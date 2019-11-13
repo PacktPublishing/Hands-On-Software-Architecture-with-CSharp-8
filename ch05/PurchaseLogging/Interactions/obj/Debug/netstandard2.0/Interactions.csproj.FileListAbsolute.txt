@@ -1,0 +1,11 @@
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PurchaseLogging\Interactions\bin\Debug\netstandard2.0\Interactions.deps.json
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PurchaseLogging\Interactions\bin\Debug\netstandard2.0\Interactions.dll
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PurchaseLogging\Interactions\obj\Debug\netstandard2.0\Interactions.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PurchaseLogging\Interactions\obj\Debug\netstandard2.0\Interactions.AssemblyInfo.cs
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PurchaseLogging\Interactions\bin\Debug\netstandard2.0\Interactions.pdb
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PurchaseLogging\Interactions\bin\Debug\netstandard2.0\IdempotencyTools.dll
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PurchaseLogging\Interactions\bin\Debug\netstandard2.0\IdempotencyTools.pdb
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PurchaseLogging\Interactions\obj\Debug\netstandard2.0\Interactions.csprojAssemblyReference.cache
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PurchaseLogging\Interactions\obj\Debug\netstandard2.0\Interactions.csproj.CopyComplete
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PurchaseLogging\Interactions\obj\Debug\netstandard2.0\Interactions.dll
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PurchaseLogging\Interactions\obj\Debug\netstandard2.0\Interactions.pdb
