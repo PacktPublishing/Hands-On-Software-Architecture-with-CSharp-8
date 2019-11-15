@@ -1,0 +1,2341 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Microsoft.Extensions.Configuration/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Binder.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Binder.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.CommandLine/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.CommandLine.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.CommandLine.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.EnvironmentVariables/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.FileExtensions/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.0.0",
+          "Microsoft.Extensions.FileProviders.Physical": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Json/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.0.0",
+          "Microsoft.Extensions.Configuration.FileExtensions": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Json.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.UserSecrets/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Json": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.UserSecrets.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.UserSecrets.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Physical/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "3.0.0",
+          "Microsoft.Extensions.FileSystemGlobbing": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.FileProviders.Physical.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.FileProviders.Physical.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileSystemGlobbing/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Hosting/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.0.0",
+          "Microsoft.Extensions.Configuration.CommandLine": "3.0.0",
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": "3.0.0",
+          "Microsoft.Extensions.Configuration.UserSecrets": "3.0.0",
+          "Microsoft.Extensions.DependencyInjection": "3.0.0",
+          "Microsoft.Extensions.FileProviders.Physical": "3.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "3.0.0",
+          "Microsoft.Extensions.Logging": "3.0.0",
+          "Microsoft.Extensions.Logging.Console": "3.0.0",
+          "Microsoft.Extensions.Logging.Debug": "3.0.0",
+          "Microsoft.Extensions.Logging.EventLog": "3.0.0",
+          "Microsoft.Extensions.Logging.EventSource": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Hosting.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Hosting.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Hosting.Abstractions/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "3.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Binder": "3.0.0",
+          "Microsoft.Extensions.DependencyInjection": "3.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "3.0.0",
+          "Microsoft.Extensions.Options": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Configuration/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "3.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.Configuration.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.Configuration.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Console/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.0.0",
+          "Microsoft.Extensions.Logging": "3.0.0",
+          "Microsoft.Extensions.Logging.Configuration": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.Console.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.Console.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Debug/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.Debug.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.Debug.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.EventLog/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "3.0.0",
+          "System.Diagnostics.EventLog": "4.6.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.EventLog.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.EventLog.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.EventSource/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.EventSource.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.EventSource.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Options/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0",
+          "Microsoft.Extensions.Primitives": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Options.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Options.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "3.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0",
+          "Microsoft.Extensions.Options": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.ServiceFabric/6.5.676": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Internal.Strings.dll": {},
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Internal.dll": {},
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Preview.dll": {},
+          "lib/netstandard2.0/System.Fabric.Management.ServiceModel.dll": {},
+          "lib/netstandard2.0/System.Fabric.Strings.dll": {},
+          "lib/netstandard2.0/System.Fabric.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Internal.Strings.dll": {},
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Internal.dll": {},
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Preview.dll": {},
+          "lib/netstandard2.0/System.Fabric.Management.ServiceModel.dll": {},
+          "lib/netstandard2.0/System.Fabric.Strings.dll": {},
+          "lib/netstandard2.0/System.Fabric.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.Internal.McgInterop.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.Internal.Strings.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.Internal.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.Preview.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/linux/lib/netstandard2.0/System.Fabric.Management.ServiceModel.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/linux/lib/netstandard2.0/System.Fabric.McgInterop.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/linux/lib/netstandard2.0/System.Fabric.Strings.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/linux/lib/netstandard2.0/System.Fabric.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/linux/lib/netstandard2.0/System.Private.CompilerServices.ICastable.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/linux/lib/netstandard2.0/System.Private.Interop.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.Internal.Strings.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.Internal.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.Preview.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          },
+          "runtimes/win/lib/netstandard2.0/System.Fabric.Management.ServiceModel.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          },
+          "runtimes/win/lib/netstandard2.0/System.Fabric.Strings.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          },
+          "runtimes/win/lib/netstandard2.0/System.Fabric.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Microsoft.ServiceFabric.Data/3.4.676": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "[6.5.676]",
+          "Microsoft.ServiceFabric.Data.Extensions": "[3.4.676]",
+          "Microsoft.ServiceFabric.Data.Interfaces": "[3.4.676]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Data.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Data.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.Data.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.Data.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Microsoft.ServiceFabric.Data.Extensions/3.4.676": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "6.5.676",
+          "Microsoft.ServiceFabric.Data.Interfaces": "[3.4.676]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Data.Extensions.dll": {},
+          "lib/netstandard2.0/Microsoft.ServiceFabric.ReliableCollection.Interop.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Data.Extensions.dll": {},
+          "lib/netstandard2.0/Microsoft.ServiceFabric.ReliableCollection.Interop.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.Data.Extensions.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.ReliableCollection.Interop.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.Data.Extensions.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.ReliableCollection.Interop.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Microsoft.ServiceFabric.Data.Interfaces/3.4.676": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "[6.5.676]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Data.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Data.Interfaces.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.Data.Interfaces.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.Data.Interfaces.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Microsoft.ServiceFabric.Diagnostics.Internal/3.4.676": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "[6.5.676]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Diagnostics.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Diagnostics.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.Diagnostics.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.Diagnostics.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Microsoft.ServiceFabric.FabricTransport.Internal/3.4.676": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "[6.5.676]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.FabricTransport.V2.dll": {},
+          "lib/netstandard2.0/Microsoft.ServiceFabric.FabricTransport.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.FabricTransport.V2.dll": {},
+          "lib/netstandard2.0/Microsoft.ServiceFabric.FabricTransport.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.FabricTransport.McgInterop.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.FabricTransport.V2.McgInterop.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.FabricTransport.V2.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.FabricTransport.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/linux/lib/netstandard2.0/System.Private.CompilerServices.ICastable.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/linux/lib/netstandard2.0/System.Private.Interop.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.FabricTransport.V2.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.FabricTransport.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Microsoft.ServiceFabric.Services/3.4.676": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ServiceFabric.Data": "[3.4.676]",
+          "Microsoft.ServiceFabric.Diagnostics.Internal": "[3.4.676]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Services.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Services.dll": {}
+        }
+      },
+      "Microsoft.ServiceFabric.Services.Remoting/3.4.676": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ServiceFabric.Diagnostics.Internal": "[3.4.676]",
+          "Microsoft.ServiceFabric.FabricTransport.Internal": "[3.4.676]",
+          "Microsoft.ServiceFabric.Services": "[3.4.676]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Services.Remoting.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Services.Remoting.dll": {}
+        }
+      },
+      "Microsoft.Win32.Registry/4.6.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.6.0",
+          "System.Security.Principal.Windows": "4.6.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Diagnostics.EventLog/4.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
+          "Microsoft.Win32.Registry": "4.6.0",
+          "System.Security.Principal.Windows": "4.6.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Diagnostics.EventLog.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Diagnostics.EventLog.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Diagnostics.EventLog.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
+          "System.Security.Principal.Windows": "4.6.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/4.6.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp3.0/System.Security.Principal.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "IdempotencyTools/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.ServiceFabric.Services": "3.4.676"
+        },
+        "compile": {
+          "bin/placeholder/IdempotencyTools.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IdempotencyTools.dll": {}
+        }
+      },
+      "Interactions/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "IdempotencyTools": "1.0.0",
+          "Microsoft.ServiceFabric.Services.Remoting": "3.4.676"
+        },
+        "compile": {
+          "bin/placeholder/Interactions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Interactions.dll": {}
+        }
+      }
+    },
+    ".NETCoreApp,Version=v3.0/win7-x64": {
+      "Microsoft.Extensions.Configuration/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Binder.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Binder.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.CommandLine/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.CommandLine.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.CommandLine.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.EnvironmentVariables/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.FileExtensions/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.0.0",
+          "Microsoft.Extensions.FileProviders.Physical": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Json/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.0.0",
+          "Microsoft.Extensions.Configuration.FileExtensions": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Json.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.UserSecrets/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Json": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.UserSecrets.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.UserSecrets.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Physical/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "3.0.0",
+          "Microsoft.Extensions.FileSystemGlobbing": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.FileProviders.Physical.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.FileProviders.Physical.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileSystemGlobbing/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Hosting/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.0.0",
+          "Microsoft.Extensions.Configuration.CommandLine": "3.0.0",
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": "3.0.0",
+          "Microsoft.Extensions.Configuration.UserSecrets": "3.0.0",
+          "Microsoft.Extensions.DependencyInjection": "3.0.0",
+          "Microsoft.Extensions.FileProviders.Physical": "3.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "3.0.0",
+          "Microsoft.Extensions.Logging": "3.0.0",
+          "Microsoft.Extensions.Logging.Console": "3.0.0",
+          "Microsoft.Extensions.Logging.Debug": "3.0.0",
+          "Microsoft.Extensions.Logging.EventLog": "3.0.0",
+          "Microsoft.Extensions.Logging.EventSource": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Hosting.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Hosting.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Hosting.Abstractions/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "3.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Binder": "3.0.0",
+          "Microsoft.Extensions.DependencyInjection": "3.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "3.0.0",
+          "Microsoft.Extensions.Options": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Configuration/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "3.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.Configuration.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.Configuration.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Console/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.0.0",
+          "Microsoft.Extensions.Logging": "3.0.0",
+          "Microsoft.Extensions.Logging.Configuration": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.Console.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.Console.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Debug/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.Debug.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.Debug.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.EventLog/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "3.0.0",
+          "System.Diagnostics.EventLog": "4.6.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.EventLog.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.EventLog.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.EventSource/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.EventSource.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.EventSource.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Options/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0",
+          "Microsoft.Extensions.Primitives": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Options.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Options.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "3.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0",
+          "Microsoft.Extensions.Options": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.ServiceFabric/6.5.676": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Internal.Strings.dll": {},
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Internal.dll": {},
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Preview.dll": {},
+          "lib/netstandard2.0/System.Fabric.Management.ServiceModel.dll": {},
+          "lib/netstandard2.0/System.Fabric.Strings.dll": {},
+          "lib/netstandard2.0/System.Fabric.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.Internal.Strings.dll": {},
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.Internal.dll": {},
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.Preview.dll": {},
+          "runtimes/win/lib/netstandard2.0/System.Fabric.Management.ServiceModel.dll": {},
+          "runtimes/win/lib/netstandard2.0/System.Fabric.Strings.dll": {},
+          "runtimes/win/lib/netstandard2.0/System.Fabric.dll": {}
+        }
+      },
+      "Microsoft.ServiceFabric.Data/3.4.676": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "[6.5.676]",
+          "Microsoft.ServiceFabric.Data.Extensions": "[3.4.676]",
+          "Microsoft.ServiceFabric.Data.Interfaces": "[3.4.676]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Data.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.Data.dll": {}
+        }
+      },
+      "Microsoft.ServiceFabric.Data.Extensions/3.4.676": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "6.5.676",
+          "Microsoft.ServiceFabric.Data.Interfaces": "[3.4.676]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Data.Extensions.dll": {},
+          "lib/netstandard2.0/Microsoft.ServiceFabric.ReliableCollection.Interop.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.Data.Extensions.dll": {},
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.ReliableCollection.Interop.dll": {}
+        }
+      },
+      "Microsoft.ServiceFabric.Data.Interfaces/3.4.676": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "[6.5.676]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Data.Interfaces.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.Data.Interfaces.dll": {}
+        }
+      },
+      "Microsoft.ServiceFabric.Diagnostics.Internal/3.4.676": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "[6.5.676]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Diagnostics.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.Diagnostics.dll": {}
+        }
+      },
+      "Microsoft.ServiceFabric.FabricTransport.Internal/3.4.676": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "[6.5.676]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.FabricTransport.V2.dll": {},
+          "lib/netstandard2.0/Microsoft.ServiceFabric.FabricTransport.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.FabricTransport.V2.dll": {},
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.FabricTransport.dll": {}
+        }
+      },
+      "Microsoft.ServiceFabric.Services/3.4.676": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ServiceFabric.Data": "[3.4.676]",
+          "Microsoft.ServiceFabric.Diagnostics.Internal": "[3.4.676]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Services.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Services.dll": {}
+        }
+      },
+      "Microsoft.ServiceFabric.Services.Remoting/3.4.676": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ServiceFabric.Diagnostics.Internal": "[3.4.676]",
+          "Microsoft.ServiceFabric.FabricTransport.Internal": "[3.4.676]",
+          "Microsoft.ServiceFabric.Services": "[3.4.676]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Services.Remoting.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Services.Remoting.dll": {}
+        }
+      },
+      "Microsoft.Win32.Registry/4.6.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.6.0",
+          "System.Security.Principal.Windows": "4.6.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {}
+        }
+      },
+      "System.Diagnostics.EventLog/4.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
+          "Microsoft.Win32.Registry": "4.6.0",
+          "System.Security.Principal.Windows": "4.6.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Diagnostics.EventLog.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netcoreapp2.0/System.Diagnostics.EventLog.dll": {}
+        }
+      },
+      "System.Security.AccessControl/4.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
+          "System.Security.Principal.Windows": "4.6.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.6.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp3.0/System.Security.Principal.Windows.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {}
+        }
+      },
+      "IdempotencyTools/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.ServiceFabric.Services": "3.4.676"
+        },
+        "compile": {
+          "bin/placeholder/IdempotencyTools.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IdempotencyTools.dll": {}
+        }
+      },
+      "Interactions/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "IdempotencyTools": "1.0.0",
+          "Microsoft.ServiceFabric.Services.Remoting": "3.4.676"
+        },
+        "compile": {
+          "bin/placeholder/Interactions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Interactions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.Configuration/3.0.0": {
+      "sha512": "KECbOpM0EySVbKTQDN9o0swdnZpwpdhuYngnnJGzXdcAc+JR1mv7iF4lOyK00KSH8OZjobO0TUeo3mn7J2rdrA==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
+        "microsoft.extensions.configuration.3.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/3.0.0": {
+      "sha512": "Lge/PbXC53jI1MF2J92X5EZOeKV8Q/rlB1aV3H9I/ZTDyQGOyBcL03IAvnviWpHKj43BDkNy6kU2KKoh8kAS0g==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "microsoft.extensions.configuration.abstractions.3.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Binder/3.0.0": {
+      "sha512": "iw3UL25Cw9GBILJOs8srwcId2UCz5+BxTu//EN5dO2dOFNtHcNJgnUiqIlmcGi0orIco0pDuDXuIDvhkrY/sGQ==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.binder/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Binder.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.xml",
+        "microsoft.extensions.configuration.binder.3.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.binder.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.CommandLine/3.0.0": {
+      "sha512": "2Wi6J+3OY3BdeZK4mzrEwx2BcJSWvxto07znvzKj6XozG/FBCewHVdlUvA4rX5ppfJsynQyA/T+pI4x4W89fvA==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.commandline/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.CommandLine.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.CommandLine.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.CommandLine.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.CommandLine.xml",
+        "microsoft.extensions.configuration.commandline.3.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.commandline.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.EnvironmentVariables/3.0.0": {
+      "sha512": "X8/7tJzoKhwRd6oTNpe7lcfP/jE+NlQRjnYf6KljMey7D6LVtgMjIW4sMAUiDG2Kd8A6Y7xk2HnyF/hZMULh/A==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.environmentvariables/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.EnvironmentVariables.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.EnvironmentVariables.xml",
+        "microsoft.extensions.configuration.environmentvariables.3.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.environmentvariables.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.FileExtensions/3.0.0": {
+      "sha512": "ldGkKUHp1l0ylmPvWFV9loI3r7odsK5v+FXhBN3+fC/Dzw1mSCRvarqdbfWvzV9asVoVxWOD8+kPd/o8puUZrQ==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.fileextensions/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.FileExtensions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.xml",
+        "microsoft.extensions.configuration.fileextensions.3.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.fileextensions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Json/3.0.0": {
+      "sha512": "OPRsOom05WwlPfuN3ufHc+w/SyovJYpByn45+XrnqogXdS8z5UH03lrC/VKvEEBU0hmiw5wWCM0b2rnaMiEKdA==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.json/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Json.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.xml",
+        "microsoft.extensions.configuration.json.3.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.json.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.UserSecrets/3.0.0": {
+      "sha512": "1UORsfr5hdPlNKzsu0ThY5SPCsYbc1yQQcTqGbOuTZz9gdCy3AL97mHUFjyGqKrQ43B7AZxwdG0JU/TlQw+vFw==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.usersecrets/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.props",
+        "build/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.targets",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.UserSecrets.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.UserSecrets.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.xml",
+        "microsoft.extensions.configuration.usersecrets.3.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.usersecrets.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection/3.0.0": {
+      "sha512": "yDsuNA/BT4j9qrcRs0NUNHQAJfywFWX18ZZ+shxXJL+/nIfz3vhuRTfnYgvFeQlNBlgmgdSjOcs4ajgoS6Q/Ng==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netcoreapp3.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.3.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0": {
+      "sha512": "ofQRroDlzJ0xKOtzNuaVt6QKNImFkhkG0lIMpGl7PtXnIf5SuLWBeiQZAP8DNSxDBJJdcsPkiJiMYK2WA5H8dQ==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/3.0.0": {
+      "sha512": "kahEeykb6FyQytoZNNXuz74X85B4weIEt8Kd+0klK48bkXDWOIHAOvNjlGsPMcS9CL935Te8QGQS83JqCbpdHA==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.abstractions/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "microsoft.extensions.fileproviders.abstractions.3.0.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Physical/3.0.0": {
+      "sha512": "76yB1N8hvzDaTqx3epda5sl/3HATw2FskztmmLmfWuvaooaNgbDa37Jyc7IyBCC4PreXEW/XLEET9w6fiJZOFg==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.physical/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.FileProviders.Physical.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.xml",
+        "microsoft.extensions.fileproviders.physical.3.0.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.physical.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.FileSystemGlobbing/3.0.0": {
+      "sha512": "E1GcUu8JvY/8QfqMUYTs6HlDLefMYhEzeHsjrhRqOZguBmDTFU8d8m+mGtHEyYHWMRT1TEiha0a8I2AuozDUWQ==",
+      "type": "package",
+      "path": "microsoft.extensions.filesystemglobbing/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.xml",
+        "microsoft.extensions.filesystemglobbing.3.0.0.nupkg.sha512",
+        "microsoft.extensions.filesystemglobbing.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Hosting/3.0.0": {
+      "sha512": "89tSjVjuS7HzXfpqLQtMTmLNitAF7P3HA67Wu2NPy20znYpoJxA3SN1AFuVlailqWT6Z9hbSbfJ5IcSXH77WIA==",
+      "type": "package",
+      "path": "microsoft.extensions.hosting/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Hosting.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Hosting.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Hosting.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Hosting.xml",
+        "microsoft.extensions.hosting.3.0.0.nupkg.sha512",
+        "microsoft.extensions.hosting.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Hosting.Abstractions/3.0.0": {
+      "sha512": "qeDWS5ErmkUN96BdQqpmeCmLk5HJWQ/SPw3ux5v5/Qb0hKZS5wojBMulnBC7JUEiBwg7Ir71Yjf1lFiRT5MdtQ==",
+      "type": "package",
+      "path": "microsoft.extensions.hosting.abstractions/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Hosting.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.xml",
+        "microsoft.extensions.hosting.abstractions.3.0.0.nupkg.sha512",
+        "microsoft.extensions.hosting.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging/3.0.0": {
+      "sha512": "rxs1i2denq0Sv0XMvAeISK7AskV5x7aihvlIlepJKFfkbE6PgbeXfPOElD0kf3Wr2Roo57ASQa5xUL9LTHWChA==",
+      "type": "package",
+      "path": "microsoft.extensions.logging/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Logging.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Logging.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.xml",
+        "microsoft.extensions.logging.3.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.0.0": {
+      "sha512": "+PsosTYZn+omucI0ff9eywo9QcPLwcbIWf7dz7ZLM1zGR8gVZXJ3wo6+tkuIedUNW5iWENlVJPEvrGjiVeoNNQ==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.3.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Configuration/3.0.0": {
+      "sha512": "Z+3mqptSt3pCo0Nl4pmwK+nTpBpRxNe2lFaBCCtsT0bb88GeFKvw6Mg+0IeEgDrfj7h4qzMYRbL5cSFMpENQZA==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.configuration/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Logging.Configuration.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Logging.Configuration.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Configuration.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Configuration.xml",
+        "microsoft.extensions.logging.configuration.3.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.configuration.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Console/3.0.0": {
+      "sha512": "0BGjmCi0tES5lYVxd+kXvr7rsnvbeNjTLi5cmgIjvGJkTAcU0qIeJq/E04eCMdjICH1Quo7R/iSc1SIqa2km1g==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.console/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Logging.Console.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Logging.Console.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Console.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Console.xml",
+        "microsoft.extensions.logging.console.3.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.console.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Debug/3.0.0": {
+      "sha512": "zatvOmnIwV6IW5ujAmOjdSUp2s4GXc8fEzj8wTUKblO4MjtL+B7G6J3q2LMxVbqudzg7ckpHOvp4dzSdXCtO2w==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.debug/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Logging.Debug.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Logging.Debug.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Debug.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Debug.xml",
+        "microsoft.extensions.logging.debug.3.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.debug.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging.EventLog/3.0.0": {
+      "sha512": "JXX1s3qEntNg+/kGkA2u3+go5HIObXV9Ffq7O2PW19AN/xdH76eXLNK+L2I7MQh2gdBV2NUhD6dJyGYsEveuOw==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.eventlog/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Microsoft.Extensions.Logging.EventLog.dll",
+        "lib/net461/Microsoft.Extensions.Logging.EventLog.xml",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Logging.EventLog.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Logging.EventLog.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.EventLog.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.EventLog.xml",
+        "microsoft.extensions.logging.eventlog.3.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.eventlog.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging.EventSource/3.0.0": {
+      "sha512": "vyTqFuh53ek5CTQuFUeQ2ehQIsn0yxjttoD4XdICvBvH2j/QO0yhES3yKTdQIDx0D/JR/MDOZNgk39Hmf+6Pog==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.eventsource/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Logging.EventSource.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Logging.EventSource.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.EventSource.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.EventSource.xml",
+        "microsoft.extensions.logging.eventsource.3.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.eventsource.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Options/3.0.0": {
+      "sha512": "aZuVhN/TC872Yb55nrb7an82sfSAdNYxIyzu3zbYHOnhwal5hdkBUxzuoYj1khI2sw0tWq6i82i624zEFmiJhg==",
+      "type": "package",
+      "path": "microsoft.extensions.options/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Options.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.3.0.0.nupkg.sha512",
+        "microsoft.extensions.options.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/3.0.0": {
+      "sha512": "g4V1TXEKUDgOnp1ZKREKSvITYxcUsTqfxNlOaCG7/xlCurLLzFupm+ULkGqIBUIBK+q3kHmt42pVyHwGIcCBmg==",
+      "type": "package",
+      "path": "microsoft.extensions.options.configurationextensions/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "microsoft.extensions.options.configurationextensions.3.0.0.nupkg.sha512",
+        "microsoft.extensions.options.configurationextensions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/3.0.0": {
+      "sha512": "6gwewTbmOh+ZVBicVkL1XRp79sx4O7BVY6Yy+7OYZdwn3pyOKe9lOam+3gXJ3TZMjhJZdV0Ub8hxHt2vkrmN5Q==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.3.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/3.0.0": {
+      "sha512": "TsETIgVJb/AKoYfSP+iCxkuly5d3inZjTdx/ItZLk2CxY85v8083OBS3uai84kK3/baLnS5/b5XGs6zR7SuuHQ==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.3.0.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.ServiceFabric/6.5.676": {
+      "sha512": "25ubrlLTLj5bpqpkpBTxl8oyVXEoMWtUGhqKQrXqF4cyT+zxgt+8p3ldzZrcHEDRhZ1anKCYH66KrcanPs+Pnw==",
+      "type": "package",
+      "path": "microsoft.servicefabric/6.5.676",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.ServiceFabric.Internal.Strings.dll",
+        "lib/net45/Microsoft.ServiceFabric.Internal.dll",
+        "lib/net45/Microsoft.ServiceFabric.Preview.dll",
+        "lib/net45/Microsoft.ServiceFabric.Preview.xml",
+        "lib/net45/System.Fabric.Management.ServiceModel.XmlSerializers.dll",
+        "lib/net45/System.Fabric.Management.ServiceModel.dll",
+        "lib/net45/System.Fabric.Strings.dll",
+        "lib/net45/System.Fabric.dll",
+        "lib/net45/System.Fabric.xml",
+        "lib/net451/Microsoft.ServiceFabric.Internal.Strings.dll",
+        "lib/net451/Microsoft.ServiceFabric.Internal.dll",
+        "lib/net451/Microsoft.ServiceFabric.Preview.dll",
+        "lib/net451/Microsoft.ServiceFabric.Preview.xml",
+        "lib/net451/System.Fabric.Management.ServiceModel.dll",
+        "lib/net451/System.Fabric.Strings.dll",
+        "lib/net451/System.Fabric.dll",
+        "lib/net451/System.Fabric.xml",
+        "lib/net452/Microsoft.ServiceFabric.Internal.Strings.dll",
+        "lib/net452/Microsoft.ServiceFabric.Internal.dll",
+        "lib/net452/Microsoft.ServiceFabric.Preview.dll",
+        "lib/net452/Microsoft.ServiceFabric.Preview.xml",
+        "lib/net452/System.Fabric.Management.ServiceModel.dll",
+        "lib/net452/System.Fabric.Strings.dll",
+        "lib/net452/System.Fabric.dll",
+        "lib/net452/System.Fabric.xml",
+        "lib/net46/Microsoft.ServiceFabric.Internal.Strings.dll",
+        "lib/net46/Microsoft.ServiceFabric.Internal.dll",
+        "lib/net46/Microsoft.ServiceFabric.Preview.dll",
+        "lib/net46/Microsoft.ServiceFabric.Preview.xml",
+        "lib/net46/System.Fabric.Management.ServiceModel.dll",
+        "lib/net46/System.Fabric.Strings.dll",
+        "lib/net46/System.Fabric.dll",
+        "lib/net46/System.Fabric.xml",
+        "lib/net461/Microsoft.ServiceFabric.Internal.Strings.dll",
+        "lib/net461/Microsoft.ServiceFabric.Internal.dll",
+        "lib/net461/Microsoft.ServiceFabric.Preview.dll",
+        "lib/net461/Microsoft.ServiceFabric.Preview.xml",
+        "lib/net461/System.Fabric.Management.ServiceModel.dll",
+        "lib/net461/System.Fabric.Strings.dll",
+        "lib/net461/System.Fabric.dll",
+        "lib/net461/System.Fabric.xml",
+        "lib/net462/Microsoft.ServiceFabric.Internal.Strings.dll",
+        "lib/net462/Microsoft.ServiceFabric.Internal.dll",
+        "lib/net462/Microsoft.ServiceFabric.Preview.dll",
+        "lib/net462/Microsoft.ServiceFabric.Preview.xml",
+        "lib/net462/System.Fabric.Management.ServiceModel.dll",
+        "lib/net462/System.Fabric.Strings.dll",
+        "lib/net462/System.Fabric.dll",
+        "lib/net462/System.Fabric.xml",
+        "lib/net47/Microsoft.ServiceFabric.Internal.Strings.dll",
+        "lib/net47/Microsoft.ServiceFabric.Internal.dll",
+        "lib/net47/Microsoft.ServiceFabric.Preview.dll",
+        "lib/net47/Microsoft.ServiceFabric.Preview.xml",
+        "lib/net47/System.Fabric.Management.ServiceModel.dll",
+        "lib/net47/System.Fabric.Strings.dll",
+        "lib/net47/System.Fabric.dll",
+        "lib/net47/System.Fabric.xml",
+        "lib/net471/Microsoft.ServiceFabric.Internal.Strings.dll",
+        "lib/net471/Microsoft.ServiceFabric.Internal.dll",
+        "lib/net471/Microsoft.ServiceFabric.Preview.dll",
+        "lib/net471/Microsoft.ServiceFabric.Preview.xml",
+        "lib/net471/System.Fabric.Management.ServiceModel.dll",
+        "lib/net471/System.Fabric.Strings.dll",
+        "lib/net471/System.Fabric.dll",
+        "lib/net471/System.Fabric.xml",
+        "lib/net472/Microsoft.ServiceFabric.Internal.Strings.dll",
+        "lib/net472/Microsoft.ServiceFabric.Internal.dll",
+        "lib/net472/Microsoft.ServiceFabric.Preview.dll",
+        "lib/net472/Microsoft.ServiceFabric.Preview.xml",
+        "lib/net472/System.Fabric.Management.ServiceModel.dll",
+        "lib/net472/System.Fabric.Strings.dll",
+        "lib/net472/System.Fabric.dll",
+        "lib/net472/System.Fabric.xml",
+        "lib/netstandard2.0/Microsoft.ServiceFabric.Internal.Strings.dll",
+        "lib/netstandard2.0/Microsoft.ServiceFabric.Internal.dll",
+        "lib/netstandard2.0/Microsoft.ServiceFabric.Preview.dll",
+        "lib/netstandard2.0/System.Fabric.Management.ServiceModel.dll",
+        "lib/netstandard2.0/System.Fabric.Strings.dll",
+        "lib/netstandard2.0/System.Fabric.dll",
+        "microsoft.servicefabric.6.5.676.nupkg.sha512",
+        "microsoft.servicefabric.nuspec",
+        "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.Internal.McgInterop.dll",
+        "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.Internal.Strings.dll",
+        "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.Internal.dll",
+        "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.Preview.dll",
+        "runtimes/linux/lib/netstandard2.0/System.Fabric.Management.ServiceModel.dll",
+        "runtimes/linux/lib/netstandard2.0/System.Fabric.McgInterop.dll",
+        "runtimes/linux/lib/netstandard2.0/System.Fabric.Strings.dll",
+        "runtimes/linux/lib/netstandard2.0/System.Fabric.dll",
+        "runtimes/linux/lib/netstandard2.0/System.Private.CompilerServices.ICastable.dll",
+        "runtimes/linux/lib/netstandard2.0/System.Private.Interop.dll",
+        "runtimes/win/lib/net461/Microsoft.ServiceFabric.Internal.Strings.dll",
+        "runtimes/win/lib/net461/Microsoft.ServiceFabric.Internal.dll",
+        "runtimes/win/lib/net461/Microsoft.ServiceFabric.Preview.dll",
+        "runtimes/win/lib/net461/System.Fabric.Management.ServiceModel.XmlSerializers.dll",
+        "runtimes/win/lib/net461/System.Fabric.Management.ServiceModel.dll",
+        "runtimes/win/lib/net461/System.Fabric.Strings.dll",
+        "runtimes/win/lib/net461/System.Fabric.dll",
+        "runtimes/win/lib/net462/Microsoft.ServiceFabric.Internal.Strings.dll",
+        "runtimes/win/lib/net462/Microsoft.ServiceFabric.Internal.dll",
+        "runtimes/win/lib/net462/Microsoft.ServiceFabric.Preview.dll",
+        "runtimes/win/lib/net462/System.Fabric.Management.ServiceModel.XmlSerializers.dll",
+        "runtimes/win/lib/net462/System.Fabric.Management.ServiceModel.dll",
+        "runtimes/win/lib/net462/System.Fabric.Strings.dll",
+        "runtimes/win/lib/net462/System.Fabric.dll",
+        "runtimes/win/lib/net47/Microsoft.ServiceFabric.Internal.Strings.dll",
+        "runtimes/win/lib/net47/Microsoft.ServiceFabric.Internal.dll",
+        "runtimes/win/lib/net47/Microsoft.ServiceFabric.Preview.dll",
+        "runtimes/win/lib/net47/System.Fabric.Management.ServiceModel.XmlSerializers.dll",
+        "runtimes/win/lib/net47/System.Fabric.Management.ServiceModel.dll",
+        "runtimes/win/lib/net47/System.Fabric.Strings.dll",
+        "runtimes/win/lib/net47/System.Fabric.dll",
+        "runtimes/win/lib/net471/Microsoft.ServiceFabric.Internal.Strings.dll",
+        "runtimes/win/lib/net471/Microsoft.ServiceFabric.Internal.dll",
+        "runtimes/win/lib/net471/Microsoft.ServiceFabric.Preview.dll",
+        "runtimes/win/lib/net471/System.Fabric.Management.ServiceModel.XmlSerializers.dll",
+        "runtimes/win/lib/net471/System.Fabric.Management.ServiceModel.dll",
+        "runtimes/win/lib/net471/System.Fabric.Strings.dll",
+        "runtimes/win/lib/net471/System.Fabric.dll",
+        "runtimes/win/lib/net472/Microsoft.ServiceFabric.Internal.Strings.dll",
+        "runtimes/win/lib/net472/Microsoft.ServiceFabric.Internal.dll",
+        "runtimes/win/lib/net472/Microsoft.ServiceFabric.Preview.dll",
+        "runtimes/win/lib/net472/System.Fabric.Management.ServiceModel.XmlSerializers.dll",
+        "runtimes/win/lib/net472/System.Fabric.Management.ServiceModel.dll",
+        "runtimes/win/lib/net472/System.Fabric.Strings.dll",
+        "runtimes/win/lib/net472/System.Fabric.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.Internal.Strings.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.Internal.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.Preview.dll",
+        "runtimes/win/lib/netstandard2.0/System.Fabric.Management.ServiceModel.dll",
+        "runtimes/win/lib/netstandard2.0/System.Fabric.Strings.dll",
+        "runtimes/win/lib/netstandard2.0/System.Fabric.dll"
+      ]
+    },
+    "Microsoft.ServiceFabric.Data/3.4.676": {
+      "sha512": "A3H+LW1h+7zLsMwWGkvbKHGxTpOVs1ZY1iEaiKJOHaqYRSLd/ICnCltvymwUB5GJ5qh100BfIENbqhNWI1EEEA==",
+      "type": "package",
+      "path": "microsoft.servicefabric.data/3.4.676",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.ServiceFabric.Data.dll",
+        "lib/net45/Microsoft.ServiceFabric.Data.xml",
+        "lib/net451/Microsoft.ServiceFabric.Data.dll",
+        "lib/net451/Microsoft.ServiceFabric.Data.xml",
+        "lib/net452/Microsoft.ServiceFabric.Data.dll",
+        "lib/net452/Microsoft.ServiceFabric.Data.xml",
+        "lib/net46/Microsoft.ServiceFabric.Data.dll",
+        "lib/net46/Microsoft.ServiceFabric.Data.xml",
+        "lib/net461/Microsoft.ServiceFabric.Data.dll",
+        "lib/net461/Microsoft.ServiceFabric.Data.xml",
+        "lib/net462/Microsoft.ServiceFabric.Data.dll",
+        "lib/net462/Microsoft.ServiceFabric.Data.xml",
+        "lib/net47/Microsoft.ServiceFabric.Data.dll",
+        "lib/net47/Microsoft.ServiceFabric.Data.xml",
+        "lib/net471/Microsoft.ServiceFabric.Data.dll",
+        "lib/net471/Microsoft.ServiceFabric.Data.xml",
+        "lib/net472/Microsoft.ServiceFabric.Data.dll",
+        "lib/net472/Microsoft.ServiceFabric.Data.xml",
+        "lib/netstandard2.0/Microsoft.ServiceFabric.Data.dll",
+        "microsoft.servicefabric.data.3.4.676.nupkg.sha512",
+        "microsoft.servicefabric.data.nuspec",
+        "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.Data.dll",
+        "runtimes/win/lib/net461/Microsoft.ServiceFabric.Data.dll",
+        "runtimes/win/lib/net462/Microsoft.ServiceFabric.Data.dll",
+        "runtimes/win/lib/net47/Microsoft.ServiceFabric.Data.dll",
+        "runtimes/win/lib/net471/Microsoft.ServiceFabric.Data.dll",
+        "runtimes/win/lib/net472/Microsoft.ServiceFabric.Data.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.Data.dll"
+      ]
+    },
+    "Microsoft.ServiceFabric.Data.Extensions/3.4.676": {
+      "sha512": "oHg2a+rAsq5dLE/5sgy9qBOE5hwv7Jy40kMGkJhTq1uK7lelPQK6OHbkuAq+Er7P64mkT64IoMlXXXj2WjCuBA==",
+      "type": "package",
+      "path": "microsoft.servicefabric.data.extensions/3.4.676",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.ServiceFabric.Data.Extensions.dll",
+        "lib/net45/Microsoft.ServiceFabric.ReliableCollection.Interop.dll",
+        "lib/net451/Microsoft.ServiceFabric.Data.Extensions.dll",
+        "lib/net451/Microsoft.ServiceFabric.ReliableCollection.Interop.dll",
+        "lib/net452/Microsoft.ServiceFabric.Data.Extensions.dll",
+        "lib/net452/Microsoft.ServiceFabric.ReliableCollection.Interop.dll",
+        "lib/net46/Microsoft.ServiceFabric.Data.Extensions.dll",
+        "lib/net46/Microsoft.ServiceFabric.ReliableCollection.Interop.dll",
+        "lib/net461/Microsoft.ServiceFabric.Data.Extensions.dll",
+        "lib/net461/Microsoft.ServiceFabric.ReliableCollection.Interop.dll",
+        "lib/net462/Microsoft.ServiceFabric.Data.Extensions.dll",
+        "lib/net462/Microsoft.ServiceFabric.ReliableCollection.Interop.dll",
+        "lib/net47/Microsoft.ServiceFabric.Data.Extensions.dll",
+        "lib/net47/Microsoft.ServiceFabric.ReliableCollection.Interop.dll",
+        "lib/net471/Microsoft.ServiceFabric.Data.Extensions.dll",
+        "lib/net471/Microsoft.ServiceFabric.ReliableCollection.Interop.dll",
+        "lib/net472/Microsoft.ServiceFabric.Data.Extensions.dll",
+        "lib/net472/Microsoft.ServiceFabric.ReliableCollection.Interop.dll",
+        "lib/netstandard2.0/Microsoft.ServiceFabric.Data.Extensions.dll",
+        "lib/netstandard2.0/Microsoft.ServiceFabric.ReliableCollection.Interop.dll",
+        "microsoft.servicefabric.data.extensions.3.4.676.nupkg.sha512",
+        "microsoft.servicefabric.data.extensions.nuspec",
+        "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.Data.Extensions.dll",
+        "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.ReliableCollection.Interop.dll",
+        "runtimes/win/lib/net461/Microsoft.ServiceFabric.Data.Extensions.dll",
+        "runtimes/win/lib/net461/Microsoft.ServiceFabric.ReliableCollection.Interop.dll",
+        "runtimes/win/lib/net462/Microsoft.ServiceFabric.Data.Extensions.dll",
+        "runtimes/win/lib/net462/Microsoft.ServiceFabric.ReliableCollection.Interop.dll",
+        "runtimes/win/lib/net47/Microsoft.ServiceFabric.Data.Extensions.dll",
+        "runtimes/win/lib/net47/Microsoft.ServiceFabric.ReliableCollection.Interop.dll",
+        "runtimes/win/lib/net471/Microsoft.ServiceFabric.Data.Extensions.dll",
+        "runtimes/win/lib/net471/Microsoft.ServiceFabric.ReliableCollection.Interop.dll",
+        "runtimes/win/lib/net472/Microsoft.ServiceFabric.Data.Extensions.dll",
+        "runtimes/win/lib/net472/Microsoft.ServiceFabric.ReliableCollection.Interop.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.Data.Extensions.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.ReliableCollection.Interop.dll"
+      ]
+    },
+    "Microsoft.ServiceFabric.Data.Interfaces/3.4.676": {
+      "sha512": "46KaeVGq/pXPTIeqPt6GXb09uqyPtIsUbhgGIF5OfRUDcUkXohYtoIoYxF3VVz7AHmsdb8PKUh29h6SxQwp7BA==",
+      "type": "package",
+      "path": "microsoft.servicefabric.data.interfaces/3.4.676",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.ServiceFabric.Data.Interfaces.dll",
+        "lib/net45/Microsoft.ServiceFabric.Data.Interfaces.xml",
+        "lib/net451/Microsoft.ServiceFabric.Data.Interfaces.dll",
+        "lib/net451/Microsoft.ServiceFabric.Data.Interfaces.xml",
+        "lib/net452/Microsoft.ServiceFabric.Data.Interfaces.dll",
+        "lib/net452/Microsoft.ServiceFabric.Data.Interfaces.xml",
+        "lib/net46/Microsoft.ServiceFabric.Data.Interfaces.dll",
+        "lib/net46/Microsoft.ServiceFabric.Data.Interfaces.xml",
+        "lib/net461/Microsoft.ServiceFabric.Data.Interfaces.dll",
+        "lib/net461/Microsoft.ServiceFabric.Data.Interfaces.xml",
+        "lib/net462/Microsoft.ServiceFabric.Data.Interfaces.dll",
+        "lib/net462/Microsoft.ServiceFabric.Data.Interfaces.xml",
+        "lib/net47/Microsoft.ServiceFabric.Data.Interfaces.dll",
+        "lib/net47/Microsoft.ServiceFabric.Data.Interfaces.xml",
+        "lib/net471/Microsoft.ServiceFabric.Data.Interfaces.dll",
+        "lib/net471/Microsoft.ServiceFabric.Data.Interfaces.xml",
+        "lib/net472/Microsoft.ServiceFabric.Data.Interfaces.dll",
+        "lib/net472/Microsoft.ServiceFabric.Data.Interfaces.xml",
+        "lib/netstandard2.0/Microsoft.ServiceFabric.Data.Interfaces.dll",
+        "microsoft.servicefabric.data.interfaces.3.4.676.nupkg.sha512",
+        "microsoft.servicefabric.data.interfaces.nuspec",
+        "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.Data.Interfaces.dll",
+        "runtimes/win/lib/net461/Microsoft.ServiceFabric.Data.Interfaces.dll",
+        "runtimes/win/lib/net462/Microsoft.ServiceFabric.Data.Interfaces.dll",
+        "runtimes/win/lib/net47/Microsoft.ServiceFabric.Data.Interfaces.dll",
+        "runtimes/win/lib/net471/Microsoft.ServiceFabric.Data.Interfaces.dll",
+        "runtimes/win/lib/net472/Microsoft.ServiceFabric.Data.Interfaces.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.Data.Interfaces.dll"
+      ]
+    },
+    "Microsoft.ServiceFabric.Diagnostics.Internal/3.4.676": {
+      "sha512": "9Nxtlvjvjgm28TGpgYCAY3dJkfWKAVWW31Zt1WI/maJFYgmkkmyVmZu3GnZnxe9ETzT+QS6lH9OXzZDLwkHB7Q==",
+      "type": "package",
+      "path": "microsoft.servicefabric.diagnostics.internal/3.4.676",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.ServiceFabric.Diagnostics.dll",
+        "lib/net45/Microsoft.ServiceFabric.Diagnostics.xml",
+        "lib/net451/Microsoft.ServiceFabric.Diagnostics.dll",
+        "lib/net451/Microsoft.ServiceFabric.Diagnostics.xml",
+        "lib/net452/Microsoft.ServiceFabric.Diagnostics.dll",
+        "lib/net452/Microsoft.ServiceFabric.Diagnostics.xml",
+        "lib/net46/Microsoft.ServiceFabric.Diagnostics.dll",
+        "lib/net46/Microsoft.ServiceFabric.Diagnostics.xml",
+        "lib/net461/Microsoft.ServiceFabric.Diagnostics.dll",
+        "lib/net461/Microsoft.ServiceFabric.Diagnostics.xml",
+        "lib/net462/Microsoft.ServiceFabric.Diagnostics.dll",
+        "lib/net462/Microsoft.ServiceFabric.Diagnostics.xml",
+        "lib/net47/Microsoft.ServiceFabric.Diagnostics.dll",
+        "lib/net47/Microsoft.ServiceFabric.Diagnostics.xml",
+        "lib/net471/Microsoft.ServiceFabric.Diagnostics.dll",
+        "lib/net471/Microsoft.ServiceFabric.Diagnostics.xml",
+        "lib/net472/Microsoft.ServiceFabric.Diagnostics.dll",
+        "lib/net472/Microsoft.ServiceFabric.Diagnostics.xml",
+        "lib/netstandard2.0/Microsoft.ServiceFabric.Diagnostics.dll",
+        "microsoft.servicefabric.diagnostics.internal.3.4.676.nupkg.sha512",
+        "microsoft.servicefabric.diagnostics.internal.nuspec",
+        "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.Diagnostics.dll",
+        "runtimes/win/lib/net461/Microsoft.ServiceFabric.Diagnostics.dll",
+        "runtimes/win/lib/net462/Microsoft.ServiceFabric.Diagnostics.dll",
+        "runtimes/win/lib/net47/Microsoft.ServiceFabric.Diagnostics.dll",
+        "runtimes/win/lib/net471/Microsoft.ServiceFabric.Diagnostics.dll",
+        "runtimes/win/lib/net472/Microsoft.ServiceFabric.Diagnostics.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.Diagnostics.dll"
+      ]
+    },
+    "Microsoft.ServiceFabric.FabricTransport.Internal/3.4.676": {
+      "sha512": "RhvQS2KBv+ShMVi+YqzsZVtuwXReMN6lFeIUyq6YKf9Tb9sZT7oXDfnTwj5r/2q8xcz1jFNsfj88m+iKSQkTQQ==",
+      "type": "package",
+      "path": "microsoft.servicefabric.fabrictransport.internal/3.4.676",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.ServiceFabric.FabricTransport.V2.dll",
+        "lib/net45/Microsoft.ServiceFabric.FabricTransport.V2.xml",
+        "lib/net45/Microsoft.ServiceFabric.FabricTransport.dll",
+        "lib/net45/Microsoft.ServiceFabric.FabricTransport.xml",
+        "lib/net451/Microsoft.ServiceFabric.FabricTransport.V2.dll",
+        "lib/net451/Microsoft.ServiceFabric.FabricTransport.V2.xml",
+        "lib/net451/Microsoft.ServiceFabric.FabricTransport.dll",
+        "lib/net451/Microsoft.ServiceFabric.FabricTransport.xml",
+        "lib/net452/Microsoft.ServiceFabric.FabricTransport.V2.dll",
+        "lib/net452/Microsoft.ServiceFabric.FabricTransport.V2.xml",
+        "lib/net452/Microsoft.ServiceFabric.FabricTransport.dll",
+        "lib/net452/Microsoft.ServiceFabric.FabricTransport.xml",
+        "lib/net46/Microsoft.ServiceFabric.FabricTransport.V2.dll",
+        "lib/net46/Microsoft.ServiceFabric.FabricTransport.V2.xml",
+        "lib/net46/Microsoft.ServiceFabric.FabricTransport.dll",
+        "lib/net46/Microsoft.ServiceFabric.FabricTransport.xml",
+        "lib/net461/Microsoft.ServiceFabric.FabricTransport.V2.dll",
+        "lib/net461/Microsoft.ServiceFabric.FabricTransport.V2.xml",
+        "lib/net461/Microsoft.ServiceFabric.FabricTransport.dll",
+        "lib/net461/Microsoft.ServiceFabric.FabricTransport.xml",
+        "lib/net462/Microsoft.ServiceFabric.FabricTransport.V2.dll",
+        "lib/net462/Microsoft.ServiceFabric.FabricTransport.V2.xml",
+        "lib/net462/Microsoft.ServiceFabric.FabricTransport.dll",
+        "lib/net462/Microsoft.ServiceFabric.FabricTransport.xml",
+        "lib/net47/Microsoft.ServiceFabric.FabricTransport.V2.dll",
+        "lib/net47/Microsoft.ServiceFabric.FabricTransport.V2.xml",
+        "lib/net47/Microsoft.ServiceFabric.FabricTransport.dll",
+        "lib/net47/Microsoft.ServiceFabric.FabricTransport.xml",
+        "lib/net471/Microsoft.ServiceFabric.FabricTransport.V2.dll",
+        "lib/net471/Microsoft.ServiceFabric.FabricTransport.V2.xml",
+        "lib/net471/Microsoft.ServiceFabric.FabricTransport.dll",
+        "lib/net471/Microsoft.ServiceFabric.FabricTransport.xml",
+        "lib/net472/Microsoft.ServiceFabric.FabricTransport.V2.dll",
+        "lib/net472/Microsoft.ServiceFabric.FabricTransport.V2.xml",
+        "lib/net472/Microsoft.ServiceFabric.FabricTransport.dll",
+        "lib/net472/Microsoft.ServiceFabric.FabricTransport.xml",
+        "lib/netstandard2.0/Microsoft.ServiceFabric.FabricTransport.V2.dll",
+        "lib/netstandard2.0/Microsoft.ServiceFabric.FabricTransport.dll",
+        "microsoft.servicefabric.fabrictransport.internal.3.4.676.nupkg.sha512",
+        "microsoft.servicefabric.fabrictransport.internal.nuspec",
+        "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.FabricTransport.McgInterop.dll",
+        "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.FabricTransport.V2.McgInterop.dll",
+        "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.FabricTransport.V2.dll",
+        "runtimes/linux/lib/netstandard2.0/Microsoft.ServiceFabric.FabricTransport.dll",
+        "runtimes/linux/lib/netstandard2.0/System.Private.CompilerServices.ICastable.dll",
+        "runtimes/linux/lib/netstandard2.0/System.Private.Interop.dll",
+        "runtimes/win/lib/net461/Microsoft.ServiceFabric.FabricTransport.V2.dll",
+        "runtimes/win/lib/net461/Microsoft.ServiceFabric.FabricTransport.dll",
+        "runtimes/win/lib/net462/Microsoft.ServiceFabric.FabricTransport.V2.dll",
+        "runtimes/win/lib/net462/Microsoft.ServiceFabric.FabricTransport.dll",
+        "runtimes/win/lib/net47/Microsoft.ServiceFabric.FabricTransport.V2.dll",
+        "runtimes/win/lib/net47/Microsoft.ServiceFabric.FabricTransport.dll",
+        "runtimes/win/lib/net471/Microsoft.ServiceFabric.FabricTransport.V2.dll",
+        "runtimes/win/lib/net471/Microsoft.ServiceFabric.FabricTransport.dll",
+        "runtimes/win/lib/net472/Microsoft.ServiceFabric.FabricTransport.V2.dll",
+        "runtimes/win/lib/net472/Microsoft.ServiceFabric.FabricTransport.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.FabricTransport.V2.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.FabricTransport.dll"
+      ]
+    },
+    "Microsoft.ServiceFabric.Services/3.4.676": {
+      "sha512": "CuZdGb74ngGe9D44J2u7JVIiS/vXmhdh0ZDxxVRf50iI/koNN64ZJ/OT/bQM3B3fzq2lRhgeh9ZCBY9/szDNmQ==",
+      "type": "package",
+      "path": "microsoft.servicefabric.services/3.4.676",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.ServiceFabric.Services.dll",
+        "lib/net45/Microsoft.ServiceFabric.Services.xml",
+        "lib/net451/Microsoft.ServiceFabric.Services.dll",
+        "lib/net451/Microsoft.ServiceFabric.Services.xml",
+        "lib/net452/Microsoft.ServiceFabric.Services.dll",
+        "lib/net452/Microsoft.ServiceFabric.Services.xml",
+        "lib/net46/Microsoft.ServiceFabric.Services.dll",
+        "lib/net46/Microsoft.ServiceFabric.Services.xml",
+        "lib/net461/Microsoft.ServiceFabric.Services.dll",
+        "lib/net461/Microsoft.ServiceFabric.Services.xml",
+        "lib/net462/Microsoft.ServiceFabric.Services.dll",
+        "lib/net462/Microsoft.ServiceFabric.Services.xml",
+        "lib/net47/Microsoft.ServiceFabric.Services.dll",
+        "lib/net47/Microsoft.ServiceFabric.Services.xml",
+        "lib/net471/Microsoft.ServiceFabric.Services.dll",
+        "lib/net471/Microsoft.ServiceFabric.Services.xml",
+        "lib/net472/Microsoft.ServiceFabric.Services.dll",
+        "lib/net472/Microsoft.ServiceFabric.Services.xml",
+        "lib/netstandard2.0/Microsoft.ServiceFabric.Services.dll",
+        "lib/netstandard2.0/Microsoft.ServiceFabric.Services.xml",
+        "microsoft.servicefabric.services.3.4.676.nupkg.sha512",
+        "microsoft.servicefabric.services.nuspec",
+        "runtimes/win/lib/net461/Microsoft.ServiceFabric.Services.dll",
+        "runtimes/win/lib/net462/Microsoft.ServiceFabric.Services.dll",
+        "runtimes/win/lib/net47/Microsoft.ServiceFabric.Services.dll",
+        "runtimes/win/lib/net471/Microsoft.ServiceFabric.Services.dll",
+        "runtimes/win/lib/net472/Microsoft.ServiceFabric.Services.dll"
+      ]
+    },
+    "Microsoft.ServiceFabric.Services.Remoting/3.4.676": {
+      "sha512": "G7AMHjdQc2PVIyLEuIbfuSe5wypZrNC60WnQNk3886z2e4nhCc4ccv7Wc6xNtHnMOZQJ3wcNVUzgv6y3DzW2/A==",
+      "type": "package",
+      "path": "microsoft.servicefabric.services.remoting/3.4.676",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.ServiceFabric.Services.Remoting.dll",
+        "lib/net45/Microsoft.ServiceFabric.Services.Remoting.xml",
+        "lib/net451/Microsoft.ServiceFabric.Services.Remoting.dll",
+        "lib/net451/Microsoft.ServiceFabric.Services.Remoting.xml",
+        "lib/net452/Microsoft.ServiceFabric.Services.Remoting.dll",
+        "lib/net452/Microsoft.ServiceFabric.Services.Remoting.xml",
+        "lib/net46/Microsoft.ServiceFabric.Services.Remoting.dll",
+        "lib/net46/Microsoft.ServiceFabric.Services.Remoting.xml",
+        "lib/net461/Microsoft.ServiceFabric.Services.Remoting.dll",
+        "lib/net461/Microsoft.ServiceFabric.Services.Remoting.xml",
+        "lib/net462/Microsoft.ServiceFabric.Services.Remoting.dll",
+        "lib/net462/Microsoft.ServiceFabric.Services.Remoting.xml",
+        "lib/net47/Microsoft.ServiceFabric.Services.Remoting.dll",
+        "lib/net47/Microsoft.ServiceFabric.Services.Remoting.xml",
+        "lib/net471/Microsoft.ServiceFabric.Services.Remoting.dll",
+        "lib/net471/Microsoft.ServiceFabric.Services.Remoting.xml",
+        "lib/net472/Microsoft.ServiceFabric.Services.Remoting.dll",
+        "lib/net472/Microsoft.ServiceFabric.Services.Remoting.xml",
+        "lib/netstandard2.0/Microsoft.ServiceFabric.Services.Remoting.dll",
+        "lib/netstandard2.0/Microsoft.ServiceFabric.Services.Remoting.xml",
+        "microsoft.servicefabric.services.remoting.3.4.676.nupkg.sha512",
+        "microsoft.servicefabric.services.remoting.nuspec",
+        "runtimes/win/lib/net461/Microsoft.ServiceFabric.Services.Remoting.dll",
+        "runtimes/win/lib/net462/Microsoft.ServiceFabric.Services.Remoting.dll",
+        "runtimes/win/lib/net47/Microsoft.ServiceFabric.Services.Remoting.dll",
+        "runtimes/win/lib/net471/Microsoft.ServiceFabric.Services.Remoting.dll",
+        "runtimes/win/lib/net472/Microsoft.ServiceFabric.Services.Remoting.dll"
+      ]
+    },
+    "Microsoft.Win32.Registry/4.6.0": {
+      "sha512": "Xuqo5Lf5h1eUAbT8sJwNSEgusyEcQQQcza1R8dxJ6q/1vLSU1SG/WxtgiCPAth14dz/IjBXCxWT/+6E9glX33w==",
+      "type": "package",
+      "path": "microsoft.win32.registry/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/Microsoft.Win32.Registry.dll",
+        "lib/net461/Microsoft.Win32.Registry.dll",
+        "lib/net461/Microsoft.Win32.Registry.xml",
+        "lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "microsoft.win32.registry.4.6.0.nupkg.sha512",
+        "microsoft.win32.registry.nuspec",
+        "ref/net46/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.xml",
+        "ref/net472/Microsoft.Win32.Registry.dll",
+        "ref/net472/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/de/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/es/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/fr/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/it/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ja/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ko/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ru/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hans/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hant/Microsoft.Win32.Registry.xml",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "runtimes/win/lib/net46/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net461/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net461/Microsoft.Win32.Registry.xml",
+        "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Diagnostics.EventLog/4.6.0": {
+      "sha512": "JeRaXoqKLUsHrzbJ5dxElVfCCO0rILRlHHLlvqX5YAzrTewohHNU5wxJ928oKVA8TwvsayYBOIiV7Av+w4cSMA==",
+      "type": "package",
+      "path": "system.diagnostics.eventlog/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Diagnostics.EventLog.dll",
+        "lib/net461/System.Diagnostics.EventLog.xml",
+        "lib/netstandard2.0/System.Diagnostics.EventLog.dll",
+        "lib/netstandard2.0/System.Diagnostics.EventLog.xml",
+        "ref/net461/System.Diagnostics.EventLog.dll",
+        "ref/net461/System.Diagnostics.EventLog.xml",
+        "ref/net472/System.Diagnostics.EventLog.dll",
+        "ref/net472/System.Diagnostics.EventLog.xml",
+        "ref/netstandard2.0/System.Diagnostics.EventLog.dll",
+        "ref/netstandard2.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Diagnostics.EventLog.xml",
+        "system.diagnostics.eventlog.4.6.0.nupkg.sha512",
+        "system.diagnostics.eventlog.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.AccessControl/4.6.0": {
+      "sha512": "gmlk6khICtVhiUnVBBtlsH0H/5QFDqhTZgtpp3AX14wWE6OIE+BX95NLD+X4AolXnIy/oXpNNmXYnsNfW1KuDQ==",
+      "type": "package",
+      "path": "system.security.accesscontrol/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.xml",
+        "lib/netstandard1.3/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/System.Security.AccessControl.dll",
+        "ref/netstandard1.3/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/de/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/es/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/fr/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/it/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ja/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ko/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ru/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/System.Security.AccessControl.dll",
+        "ref/netstandard2.0/System.Security.AccessControl.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/win/lib/net46/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.xml",
+        "runtimes/win/lib/netstandard1.3/System.Security.AccessControl.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.accesscontrol.4.6.0.nupkg.sha512",
+        "system.security.accesscontrol.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Principal.Windows/4.6.0": {
+      "sha512": "Mdukseovp0YIGaz16FMH6nbfgZkrCFOJbtXQptv0aeBO9h775Ilb9+TDwLVTKikoW7y7CY7lpoXl9zmZ5G3ndA==",
+      "type": "package",
+      "path": "system.security.principal.windows/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.xml",
+        "lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.xml",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.dll",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/de/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/es/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/fr/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/it/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ja/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ko/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ru/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/System.Security.Principal.Windows.dll",
+        "ref/netstandard2.0/System.Security.Principal.Windows.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.xml",
+        "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/net46/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.principal.windows.4.6.0.nupkg.sha512",
+        "system.security.principal.windows.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "IdempotencyTools/1.0.0": {
+      "type": "project",
+      "path": "../IdempotencyTools/IdempotencyTools.csproj",
+      "msbuildProject": "../IdempotencyTools/IdempotencyTools.csproj"
+    },
+    "Interactions/1.0.0": {
+      "type": "project",
+      "path": "../Interactions/Interactions.csproj",
+      "msbuildProject": "../Interactions/Interactions.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "Interactions >= 1.0.0",
+      "Microsoft.Extensions.Hosting >= 3.0.0",
+      "Microsoft.ServiceFabric.Services >= 3.4.676"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\HP\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\HP\\Documents\\libro c#\\Code\\dotnet 3.0\\PurchaseLogging\\LogStore\\LogStore.csproj",
+      "projectName": "LogStore",
+      "projectPath": "C:\\Users\\HP\\Documents\\libro c#\\Code\\dotnet 3.0\\PurchaseLogging\\LogStore\\LogStore.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\Documents\\libro c#\\Code\\dotnet 3.0\\PurchaseLogging\\LogStore\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\LocalNugetFeed": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/mvcct/_packaging/MainFeed/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "C:\\Users\\HP\\Documents\\libro c#\\Code\\dotnet 3.0\\PurchaseLogging\\Interactions\\Interactions.csproj": {
+              "projectPath": "C:\\Users\\HP\\Documents\\libro c#\\Code\\dotnet 3.0\\PurchaseLogging\\Interactions\\Interactions.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Hosting": {
+            "target": "Package",
+            "version": "[3.0.0, )"
+          },
+          "Microsoft.ServiceFabric.Services": {
+            "target": "Package",
+            "version": "[3.4.676, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x64",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+            "version": "[3.0.0, 3.0.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x64": {
+        "#import": []
+      }
+    }
+  }
+}

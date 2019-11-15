@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Documents\\libro c#\\Code\\PackagesManagement\\PackagesManagementDB\\PackagesManagementDB.csproj": {}
+    "C:\\Users\\HP\\Documents\\libro c#\\Code\\dotnet 3.0\\PackagesManagement\\PackagesManagementDB\\PackagesManagementDB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Documents\\libro c#\\Code\\PackagesManagement\\PackagesManagementDB\\PackagesManagementDB.csproj": {
+    "C:\\Users\\HP\\Documents\\libro c#\\Code\\dotnet 3.0\\PackagesManagement\\PackagesManagementDB\\PackagesManagementDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Documents\\libro c#\\Code\\PackagesManagement\\PackagesManagementDB\\PackagesManagementDB.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\libro c#\\Code\\dotnet 3.0\\PackagesManagement\\PackagesManagementDB\\PackagesManagementDB.csproj",
         "projectName": "PackagesManagementDB",
-        "projectPath": "C:\\Users\\HP\\Documents\\libro c#\\Code\\PackagesManagement\\PackagesManagementDB\\PackagesManagementDB.csproj",
+        "projectPath": "C:\\Users\\HP\\Documents\\libro c#\\Code\\dotnet 3.0\\PackagesManagement\\PackagesManagementDB\\PackagesManagementDB.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Documents\\libro c#\\Code\\PackagesManagement\\PackagesManagementDB\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\libro c#\\Code\\dotnet 3.0\\PackagesManagement\\PackagesManagementDB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -34,8 +34,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\HP\\Documents\\libro c#\\Code\\PackagesManagement\\PackagesManagementDomain\\PackagesManagementDomain.csproj": {
-                "projectPath": "C:\\Users\\HP\\Documents\\libro c#\\Code\\PackagesManagement\\PackagesManagementDomain\\PackagesManagementDomain.csproj"
+              "C:\\Users\\HP\\Documents\\libro c#\\Code\\dotnet 3.0\\PackagesManagement\\PackagesManagementDomain\\PackagesManagementDomain.csproj": {
+                "projectPath": "C:\\Users\\HP\\Documents\\libro c#\\Code\\dotnet 3.0\\PackagesManagement\\PackagesManagementDomain\\PackagesManagementDomain.csproj"
               }
             }
           }
@@ -51,30 +51,23 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.0.0-preview6.19307.2, )"
+              "version": "[3.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0-preview6.19304.10, )"
+              "version": "[3.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.0.0-preview6.19304.10, )"
+              "version": "[3.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0-preview6.19304.10, )"
-            },
-            "Microsoft.NETCore.App": {
-              "include": "None",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.0.0-preview6-27804-01, )",
-              "autoReferenced": true
+              "version": "[3.0.0, )"
             }
           },
           "imports": [
@@ -87,21 +80,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": [
-            "Microsoft.AspNetCore.App",
-            "Microsoft.NETCore.App"
-          ]
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\Documents\\libro c#\\Code\\PackagesManagement\\PackagesManagementDomain\\PackagesManagementDomain.csproj": {
+    "C:\\Users\\HP\\Documents\\libro c#\\Code\\dotnet 3.0\\PackagesManagement\\PackagesManagementDomain\\PackagesManagementDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Documents\\libro c#\\Code\\PackagesManagement\\PackagesManagementDomain\\PackagesManagementDomain.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\libro c#\\Code\\dotnet 3.0\\PackagesManagement\\PackagesManagementDomain\\PackagesManagementDomain.csproj",
         "projectName": "PackagesManagementDomain",
-        "projectPath": "C:\\Users\\HP\\Documents\\libro c#\\Code\\PackagesManagement\\PackagesManagementDomain\\PackagesManagementDomain.csproj",
+        "projectPath": "C:\\Users\\HP\\Documents\\libro c#\\Code\\dotnet 3.0\\PackagesManagement\\PackagesManagementDomain\\PackagesManagementDomain.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Documents\\libro c#\\Code\\PackagesManagement\\PackagesManagementDomain\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\libro c#\\Code\\dotnet 3.0\\PackagesManagement\\PackagesManagementDomain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -137,7 +135,7 @@
           "dependencies": {
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[3.0.0-preview6.19304.6, )"
+              "version": "[3.0.0, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -147,7 +145,7 @@
             },
             "System.ComponentModel.Annotations": {
               "target": "Package",
-              "version": "[4.6.0-preview6.19303.8, )"
+              "version": "[4.6.0, )"
             }
           },
           "imports": [
@@ -159,7 +157,8 @@
             "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

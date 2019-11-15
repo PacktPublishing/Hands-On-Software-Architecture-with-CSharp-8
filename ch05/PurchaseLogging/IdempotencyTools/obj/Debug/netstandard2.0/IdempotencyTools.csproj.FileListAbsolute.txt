@@ -1,0 +1,8 @@
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PurchaseLogging\IdempotencyTools\bin\Debug\netstandard2.0\IdempotencyTools.deps.json
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PurchaseLogging\IdempotencyTools\bin\Debug\netstandard2.0\IdempotencyTools.dll
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PurchaseLogging\IdempotencyTools\obj\Debug\netstandard2.0\IdempotencyTools.csprojAssemblyReference.cache
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PurchaseLogging\IdempotencyTools\obj\Debug\netstandard2.0\IdempotencyTools.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PurchaseLogging\IdempotencyTools\obj\Debug\netstandard2.0\IdempotencyTools.AssemblyInfo.cs
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PurchaseLogging\IdempotencyTools\bin\Debug\netstandard2.0\IdempotencyTools.pdb
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PurchaseLogging\IdempotencyTools\obj\Debug\netstandard2.0\IdempotencyTools.dll
+C:\Users\HP\Documents\libro c#\Code\dotnet 3.0\PurchaseLogging\IdempotencyTools\obj\Debug\netstandard2.0\IdempotencyTools.pdb

@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "Microsoft.Extensions.DependencyInjection/3.0.0-preview6.19304.6": {
+      "Microsoft.Extensions.DependencyInjection/3.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0-preview6.19304.6"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -14,7 +14,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0-preview6.19304.6": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -47,7 +47,7 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "System.ComponentModel.Annotations/4.6.0-preview6.19303.8": {
+      "System.ComponentModel.Annotations/4.6.0": {
         "type": "package",
         "compile": {
           "ref/netstandard2.0/System.ComponentModel.Annotations.dll": {}
@@ -59,10 +59,10 @@
     }
   },
   "libraries": {
-    "Microsoft.Extensions.DependencyInjection/3.0.0-preview6.19304.6": {
-      "sha512": "Q+hAXRgBMMWmGY0nrLmjhf01q31yDJhVB5SQPeNas1H78/efGwC194q6M9PlJWUfm11uMVtb5ZfpMjZiHrHObA==",
+    "Microsoft.Extensions.DependencyInjection/3.0.0": {
+      "sha512": "yDsuNA/BT4j9qrcRs0NUNHQAJfywFWX18ZZ+shxXJL+/nIfz3vhuRTfnYgvFeQlNBlgmgdSjOcs4ajgoS6Q/Ng==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection/3.0.0-preview6.19304.6",
+      "path": "microsoft.extensions.dependencyinjection/3.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -72,20 +72,20 @@
         "lib/netcoreapp3.0/Microsoft.Extensions.DependencyInjection.xml",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
-        "microsoft.extensions.dependencyinjection.3.0.0-preview6.19304.6.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.3.0.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.nuspec"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0-preview6.19304.6": {
-      "sha512": "g2M6hgbjj+XFiohKnNBJ/7DjPhVfp4HEe+wbXIEVSfA1HkT40/aHiXY/7ynkndEXXBaTgj6OYtj89iDyTKSsEw==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0": {
+      "sha512": "ofQRroDlzJ0xKOtzNuaVt6QKNImFkhkG0lIMpGl7PtXnIf5SuLWBeiQZAP8DNSxDBJJdcsPkiJiMYK2WA5H8dQ==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/3.0.0-preview6.19304.6",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.3.0.0-preview6.19304.6.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
     },
@@ -231,10 +231,10 @@
         "netstandard.library.nuspec"
       ]
     },
-    "System.ComponentModel.Annotations/4.6.0-preview6.19303.8": {
-      "sha512": "Q5NUReQpwGjPTm1uhKyNfvbVqNn9pQ46L4Lxkz/+hCoRsMJQkI3Acbh6E57SjJ1hn5hcTv4yy9bqqpDK06UPoQ==",
+    "System.ComponentModel.Annotations/4.6.0": {
+      "sha512": "pOd+UhZ3X8xfwKDlgAzowUJNjp8VYVmOHZm++vCd0kq1HZ0zK3mNo2yRXjYgv7Ik/Xi43fmJfND2PLEsQSALCg==",
       "type": "package",
-      "path": "system.componentmodel.annotations/4.6.0-preview6.19303.8",
+      "path": "system.componentmodel.annotations/4.6.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -244,14 +244,12 @@
         "lib/MonoTouch10/_._",
         "lib/net45/_._",
         "lib/net461/System.ComponentModel.Annotations.dll",
-        "lib/net461/System.ComponentModel.Annotations.xml",
         "lib/netcore50/System.ComponentModel.Annotations.dll",
-        "lib/netcoreapp2.0/_._",
         "lib/netstandard1.4/System.ComponentModel.Annotations.dll",
         "lib/netstandard2.0/System.ComponentModel.Annotations.dll",
-        "lib/netstandard2.0/System.ComponentModel.Annotations.xml",
+        "lib/netstandard2.1/System.ComponentModel.Annotations.dll",
+        "lib/netstandard2.1/System.ComponentModel.Annotations.xml",
         "lib/portable-net45+win8/_._",
-        "lib/uap10.0.16299/_._",
         "lib/win8/_._",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
@@ -273,7 +271,6 @@
         "ref/netcore50/ru/System.ComponentModel.Annotations.xml",
         "ref/netcore50/zh-hans/System.ComponentModel.Annotations.xml",
         "ref/netcore50/zh-hant/System.ComponentModel.Annotations.xml",
-        "ref/netcoreapp2.0/_._",
         "ref/netstandard1.1/System.ComponentModel.Annotations.dll",
         "ref/netstandard1.1/System.ComponentModel.Annotations.xml",
         "ref/netstandard1.1/de/System.ComponentModel.Annotations.xml",
@@ -309,14 +306,15 @@
         "ref/netstandard1.4/zh-hant/System.ComponentModel.Annotations.xml",
         "ref/netstandard2.0/System.ComponentModel.Annotations.dll",
         "ref/netstandard2.0/System.ComponentModel.Annotations.xml",
+        "ref/netstandard2.1/System.ComponentModel.Annotations.dll",
+        "ref/netstandard2.1/System.ComponentModel.Annotations.xml",
         "ref/portable-net45+win8/_._",
-        "ref/uap10.0.16299/_._",
         "ref/win8/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.componentmodel.annotations.4.6.0-preview6.19303.8.nupkg.sha512",
+        "system.componentmodel.annotations.4.6.0.nupkg.sha512",
         "system.componentmodel.annotations.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -325,9 +323,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Microsoft.Extensions.DependencyInjection >= 3.0.0-preview6.19304.6",
+      "Microsoft.Extensions.DependencyInjection >= 3.0.0",
       "NETStandard.Library >= 2.0.3",
-      "System.ComponentModel.Annotations >= 4.6.0-preview6.19303.8"
+      "System.ComponentModel.Annotations >= 4.6.0"
     ]
   },
   "packageFolders": {
@@ -338,11 +336,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Documents\\libro c#\\Code\\PackagesManagement\\PackagesManagementDomain\\PackagesManagementDomain.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Documents\\libro c#\\Code\\dotnet 3.0\\PackagesManagement\\PackagesManagementDomain\\PackagesManagementDomain.csproj",
       "projectName": "PackagesManagementDomain",
-      "projectPath": "C:\\Users\\HP\\Documents\\libro c#\\Code\\PackagesManagement\\PackagesManagementDomain\\PackagesManagementDomain.csproj",
+      "projectPath": "C:\\Users\\HP\\Documents\\libro c#\\Code\\dotnet 3.0\\PackagesManagement\\PackagesManagementDomain\\PackagesManagementDomain.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Documents\\libro c#\\Code\\PackagesManagement\\PackagesManagementDomain\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Documents\\libro c#\\Code\\dotnet 3.0\\PackagesManagement\\PackagesManagementDomain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -378,7 +376,7 @@
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": {
             "target": "Package",
-            "version": "[3.0.0-preview6.19304.6, )"
+            "version": "[3.0.0, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
@@ -388,7 +386,7 @@
           },
           "System.ComponentModel.Annotations": {
             "target": "Package",
-            "version": "[4.6.0-preview6.19303.8, )"
+            "version": "[4.6.0, )"
           }
         },
         "imports": [
@@ -400,7 +398,8 @@
           "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
