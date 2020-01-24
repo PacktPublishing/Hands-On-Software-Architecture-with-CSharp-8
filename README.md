@@ -65,6 +65,18 @@ Detailed installation steps for Visual Studio can be found in the link https://d
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](\\192.168.0.200\All_Books\2019\Working_Titles\Books\12730_Hands-On Software Architecture with C# 8\Current-Titles\Final\Graphics).
 
+## Errata
+* Page 19 (Paragraph 1, line 1): **Remember: you do not write requirements for the user, you write them for you and your team.** _should be_ **Remember that you do not write requirements for the user; you write them for yourself and your team.**
+* Page 25 (Paragraph 2, line 2): **For instance, if you are fetching the available car models in a database, the number of cars in the database can increase but they will not change.** _should be_ **For instance, if you are fetching the available car models in a database, the number of cars in the database can increase, but the models will not change.**
+* Page 28 (Paragraph 6, line 3): **plus to provide the during the process of reading this book to develop an enterprise application with…** _should be_ **and to provide an opportunity to develop an enterprise application with…**
+* Page 248 (Paragraph 6, line 3): **Moreover, each pattern with be presented with…** _should be_ **Moreover, each pattern will be presented with…**
+* Page 251 (Paragraph 1, line 2): **…you don't know which need to be created by…** _should be_ **…you don't know which needs to be created by…**
+* Page 269 (Paragraph 1, line 1): **As the traffic in the data storage subsystem grows, we need read and update/write parallelism…** _should be_ **As the traffic in the data storage subsystem grows, we need to read and update/write parallelism…**
+* Page 527 (Paragraph 1, line 6): **Use a change management procedure in these cases needs to be decided.** _should be_ **Usage of a change management procedure in these cases needs to be decided.**
+* Page 530 (Paragraph 2, line 2): **You may use for solving it the feature flag principle…** _should be_ **You may use it for solving the feature flag principle…**
+* Page 537 (Paragraph 3, line 1): **As system functionalities become always more stable…** _should be_  **As system functionalities become more stable…**
+* Page 538 (Paragraph 2, line 2): **…since it is very expansive…** _should be_  **…since it is very expensive…**
+
 ### Related products
 * Hands-On Design Patterns with C# and .NET Core  [[Packt]](https://www.packtpub.com/application-development/hands-design-patterns-c-and-net-core?utm_source=github&utm_medium=repository&utm_campaign=9781789133646) [[Amazon]](https://www.amazon.com/dp/1789133645)
 
